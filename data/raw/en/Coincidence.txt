@@ -1,0 +1,54 @@
+A coincidence is a remarkable concurrence of events or circumstances that have no apparent causal connection with one another. The perception of remarkable coincidences may lead to supernatural, occult, or paranormal claims, or it may lead to belief in fatalism, which is a doctrine that events will happen in the exact manner of a predetermined plan. In general, the perception of coincidence, for lack of more sophisticated explanations, can serve as a link to folk psychology and philosophy.
+From a statistical perspective, coincidences are inevitable and often less remarkable than they may appear intuitively. Usually, coincidences are chance events with underestimated probability. An example is the birthday problem, which shows that the probability of two persons having the same birthday already exceeds 50% in a group of only 23 persons. Generalizations of the birthday problem are a key tool used for mathematically modelling coincidences.
+
+
+== Etymology ==
+The first known usage of the word coincidence is from c. 1605 with the meaning "exact correspondence in substance or nature" from the French coincidence, from coincider, from Medieval Latin coincidere. The definition evolved in the 1640s as "occurrence or existence during the same time". The word was introduced to English readers in the 1650s by Sir Thomas Browne, in A Letter to a Friend (circa 1656 pub. 1690) and in his discourse The Garden of Cyrus (1658).
+
+
+== Synchronicity ==
+
+Swiss psychiatrist Carl Jung developed a theory that states that remarkable coincidences occur because of what he called "synchronicity," which he defined as an "acausal connecting principle."
+
+The Jung-Pauli theory of "synchronicity", conceived by a physicist and a psychologist, both eminent in their fields, represents perhaps the most radical departure from the world-view of mechanistic science in our time. Yet they had a precursor, whose ideas had a considerable influence on Jung: the Austrian biologist Paul Kammerer, a wild genius who committed suicide in 1926, at the age of forty-five.
+One of Kammerer's passions was collecting coincidences. He published a book titled Das Gesetz der Serie (The Law of Series), which has not been translated into English. In this book, he recounted 100 or so anecdotes of coincidences that led him to formulate his theory of seriality.
+He postulated that all events are connected by waves of seriality. Kammerer was known to make notes in public parks of how many people were passing by, how many of them carried umbrellas, etc. Albert Einstein called the idea of seriality "interesting and by no means absurd." Carl Jung drew upon Kammerer's work in his book Synchronicity.
+A coincidence lacks an apparent causal connection. A coincidence may be synchronicity — the experience of events that are causally unrelated — and yet their occurrence together has meaning for the person who observes them. To be counted as synchronicity, the events should be unlikely to occur together by chance, but this is questioned because there is usually a chance, no matter how small and in vast numbers of opportunities such coincidences do happen by chance if it is only non-zero (see law of truly large numbers).
+Some skeptics (e.g., Georges Charpak and Henri Broch) argue synchronicity is merely an instance of apophenia. They argue that probability and statistical theory (exemplified, e.g., in Littlewood's law) suffice to explain remarkable coincidences.
+Charles Fort also compiled hundreds of accounts of interesting coincidences and strange phenomena.
+
+
+== Causality ==
+
+Measuring the probability of a series of coincidences is the most common method of distinguishing a coincidence from causally connected events.
+
+The mathematically naive person seems to have a more acute awareness than the specialist of the basic paradox of probability theory, over which philosophers have puzzled ever since Pascal initiated that branch of science [in 1654] .... The paradox consists, loosely speaking, of the fact that probability theory is able to predict with uncanny precision the overall outcome of processes made up of numerous individual happenings, each of which in itself is unpredictable. In other words, we observe many uncertainties producing certainty, and many chance events creating a lawful total outcome.
+To establish cause and effect (i.e., causality) is notoriously difficult, as is expressed by the commonly heard statement that "correlation does not imply causation." In statistics, it is generally accepted that observational studies can give hints but can never establish cause and effect. But, considering the probability paradox (see Koestler's quote above), it appears that the larger the set of coincidences, the more certainty increases, and the more it seems that there is some cause behind a remarkable coincidence.
+
+... it is only the manipulation of uncertainty that interests us. We are not concerned with the matter that is uncertain. Thus we do not study the mechanism of rain; only whether it will rain.
+It is no great wonder if in the long process of time, while fortune takes her course hither and thither, numerous coincidences should spontaneously occur.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+David Marks: The Psychology of the Psychic. pp. 227–46
+Joseph Mazur (2016). Fluke: The Maths and Myths of Coincidences, London: Oneworld Publications. ISBN 978-1-78074-899-3
+
+
+== Further reading ==
+Beitman, Bernard (6 September 2022). Meaningful Coincidences How and Why Synchronicity and Serendipity Happen. Inner Traditions Bear. ISBN 9781644115718.
+Beitman, Bernard (7 March 2016). Connecting with Coincidence The New Science for Using Synchronicity and Serendipity in Your Life. Health Communications, Incorporated. ISBN 9780757318849.
+
+
+== External links ==
+
+Collection of Historical Coincidence, nephiliman.com (web.archive.org)
+Unlikely Events and Coincidence, Austin Society to Oppose Pseudoscience
+Why coincidences happen, UnderstandingUncertainty.org
+The Cambridge Coincidences Collection, University of Cambridge Statslab
+The mathematics of coincidental meetings

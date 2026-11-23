@@ -1,0 +1,105 @@
+The Brier score is a strictly proper scoring rule that measures the accuracy of probabilistic predictions. For unidimensional predictions, it is strictly equivalent to the mean squared error as applied to predicted probabilities.
+The Brier score is applicable to tasks in which predictions must assign probabilities to a set of mutually exclusive discrete outcomes or classes. The set of possible outcomes can be either binary or categorical in nature, and the probabilities assigned to this set of outcomes must sum to one (where each individual probability is in the range of 0 to 1). It was proposed by Glenn W. Brier in 1950.
+The Brier score can be thought of as a cost function. More precisely, across all items i∈1...N in a set of N predictions, the Brier score measures the mean squared difference between:
+
+The predicted probability assigned to the possible outcomes for item i
+The actual outcome oi
+Therefore, the lower the Brier score is for a set of predictions, the better the predictions are calibrated. Note that the Brier score, in its most common formulation, takes on a value between zero and one, since this is the square of the largest possible difference between a predicted probability (which must be between zero and one) and the actual outcome (which can take on values of only 0 or 1).  In the original (1950) formulation of the Brier score, the range is double, from zero to two.
+The Brier score is appropriate for binary and categorical outcomes that can be structured as true or false, but it is inappropriate for ordinal variables which can take on three or more values.
+
+
+== Definition ==
+The most common formulation of the Brier score is  
+
+BS=1N∑t=1N(ft−ot)2
+in which ft is the probability that was forecast, ot the actual outcome of the event at instance t (0 if it does not happen and 1 if it does happen) and N is the number of forecasting instances. In effect, it is the mean squared error of the forecast. This formulation is mostly used for binary events (for example "rain" or "no rain"). The above equation is a proper scoring rule only for binary events; if a multi-category forecast is to be evaluated, then the original definition given by Brier below should be used.
+
+
+=== Example ===
+Suppose that one is forecasting the probability P that it will rain on a given day. Then the Brier score is calculated as follows:
+
+If the forecast is 100% (P = 1) and it rains, then the Brier Score is 0, the best score achievable.
+If the forecast is 100% and it does not rain, then the Brier Score is 1, the worst score achievable.
+If the forecast is 70% (P = 0.70) and it rains, then the Brier Score is (0.70−1)2 = 0.09.
+In contrast, if the forecast is 70% (P = 0.70) and it does not rain, then the Brier Score is (0.70−0)2 = 0.49.
+Similarly, if the forecast is 30% (P = 0.30) and it rains, then the Brier Score is (0.30−1)2 = 0.49.
+If the forecast is 50% (P = 0.50), then the Brier score is (0.50−1)2 = (0.50−0)2 = 0.25, regardless of whether it rains.
+
+
+=== Original definition by Brier ===
+Although the above formulation is the most widely used, the original definition by Brier is applicable to multi-category forecasts as well as it remains a proper scoring rule, while the binary form (as used in the examples above) is only proper for binary events. For binary forecasts, the original formulation of Brier's "probability score" has twice the value of the score currently known as the Brier score.
+
+BS=1N∑t=1N∑i=1R(fti−oti)2
+In which R is the number of possible classes in which the event can fall, and N the overall number of instances of all classes. fti is the predicted probability for class i.oti is 1 if it is i-th class in instance t; 0, otherwise.  For the case Rain / No rain, R=2, while for the forecast Cold / Normal / Warm, R=3.
+
+
+== Decompositions ==
+There are several decompositions of the Brier score which provide a deeper insight on the behavior of a binary classifier.
+
+
+=== Three-component decomposition ===
+The Brier score can be decomposed into three additive components: uncertainty, reliability, and resolution.
+
+BS=REL−RES+UNC
+Each of these components can be decomposed further according to the number of possible classes in which the event can fall. Abusing the equality sign:
+
+BS=1N∑k=1Knk(𝐟𝐤−𝐨¯𝐤)2−1N∑k=1Knk(𝐨¯𝐤−𝐨¯)2+𝐨¯(1−𝐨¯)
+With N being the total number of forecasts issued, K the number of unique forecasts issued, 𝐨¯=∑t=1N𝐨𝐭/N the observed climatological base rate for the event to occur, nk the number of forecasts with the same probability category and 𝐨‾𝐤 the observed frequency, given forecasts of probability 𝐟𝐤. The bold notation in the above formula indicates vectors, which is another way of denoting the original definition of the score and decomposing it according to the number of possible classes in which the event can fall. For example, a 70% chance of rain and an occurrence of no rain are denoted as  𝐟=(0.3,0.7)  and  𝐨=(1,0) respectively. Operations like the square and multiplication on these vectors are understood to be component wise. The Brier Score is then the sum of the resulting vector on the right hand side.
+
+
+==== Reliability ====
+The reliability term measures how close the forecast probabilities are to the true probabilities, given that forecast. Reliability is defined in the contrary direction compared to English language. If the reliability is 0, the forecast is perfectly reliable. For example, if we group all forecast instances where 80% chance of rain was forecast, we get a perfect reliability only if it rained 4 out of 5 times after such a forecast was issued.
+
+
+==== Resolution ====
+The resolution term measures how much the conditional probabilities given by the different forecasts differ from the climatic average. The higher this term is, the better. In the worst case, when the climatic probability is always forecast, the resolution is zero. In the best case, when the conditional probabilities are zero and one, the resolution is equal to the uncertainty.
+
+
+==== Uncertainty ====
+The uncertainty term measures the inherent uncertainty in the outcomes of the event. For binary events, it is at a maximum when each outcome occurs 50% of the time, and is minimal (zero) if an outcome always occurs or never occurs.
+
+
+=== Two-component decomposition ===
+An alternative (and related) decomposition generates two terms instead of three.
+
+BS=CAL+REF
+BS=1N∑k=1Knk(𝐟𝐤−𝐨¯𝐤)2+1N∑k=1Knk(𝐨¯𝐤(1−𝐨¯𝐤))
+The first term is known as calibration (and can be used as a measure of calibration, see statistical calibration), and is equal to reliability. The second term is known as refinement, and it is an aggregation of resolution and uncertainty, and is related to the area under the ROC Curve.
+The Brier Score, and the CAL + REF decomposition, can be represented graphically through the so-called Brier Curves, where the expected loss is shown for each operating condition. This makes the Brier Score a measure of aggregated performance under a uniform distribution of class asymmetries.
+
+
+== Brier skill score (BSS) ==
+A skill score for a given underlying score is an offset and (negatively-) scaled variant of the underlying score such that a skill score value of zero means that the score for the predictions is merely as good as that of a set of baseline or reference or default predictions, while a skill score value of one (100%) represents the best possible score.  A skill score value less than zero means that the performance is even worse than that of the baseline or reference predictions.  When the underlying score is the Brier score (BS), the Brier skill score (BSS) is calculated as
+
+BSS=1−BSBSref
+where BSref is the Brier score of reference or baseline predictions which we seek to improve on.  While the reference predictions could in principle be given by any pre-existing model, by default one can use the naïve model that predicts the overall proportion or frequency of a given class in the data set being scored, as the constant predicted probability of that class occurring in each instance in the data set.  This baseline model would represent a "no skill" model that one seeks to improve on.  Skill scores originate in the meteorological prediction literature, where the naïve default reference predictions are called the "in-sample climatology" predictions, where climatology means a long-term or overall average of weather predictions, and in-sample means as calculated from the present data set being scored.  In this default case, for binary (two-class) classification, the reference Brier score is given by (using the notation of the first equation of this article, at the top of the Definition section):
+
+BSref=1N∑t=1N(o¯−ot)2
+where o¯ is simply the average actual outcome, i.e. the overall proportion of true class 1 in the data set:
+
+o¯=1N∑t=1Not.
+With a Brier score, lower is better (it is a loss function) with 0 being the best possible score.  But with a Brier skill score, higher is better with 1 (100%) being the best possible score.
+The Brier skill score can be more interpretable than the Brier score because the BSS is simply the percentage improvement in the BS compared to the reference model, and a negative BSS means you are doing even worse than the reference model, which may not be obvious from looking at the Brier score itself.  However, a BSS near 100% should not typically be expected because this would require that every probability prediction was nearly 0 or 1 (and was correct of course).
+Even if the Brier score is a  strictly proper scoring rule, the BSS is not strictly proper: indeed, skill scores are generally non-proper even if the underlying scoring rule is proper. Still, Murphy (1973)  proved that the BSS is asymptotically proper with a large number of samples.
+You might notice that classification's (probability estimation's) BSS is to its BS, as regression's coefficient of determination (R2) is to its mean squared error (MSE).
+
+
+== Shortcomings ==
+The Brier score becomes inadequate for very rare (or very frequent) events, because it does not sufficiently discriminate between small changes in forecast that are significant for rare events.  Wilks (2010) has found that "[Q]uite large
+sample sizes, i.e. n > 1000, are required for higher-skill forecasts of relatively rare events, whereas only quite modest sample sizes are needed for low-skill forecasts of common events."
+
+
+== See also ==
+Forecast skill
+Scoring rule
+
+
+== References ==
+
+
+== Further reading ==
+Brier, Glenn W (1950). "Verification of forecasts expressed in terms of probability". Monthly Weather Review. 78 (1): 1–3. Bibcode:1950MWRv...78....1B. doi:10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2. S2CID 122906757.
+J. Scott Armstrong, Principles of Forecasting.
+AMS Glossary of Meteorology
+Brier score composition: a mini-tutorial
+Chicco D.; Warrens M.J.; Jurman G. (2021). "The Matthews correlation coefficient (MCC) is more informative than Cohen's Kappa and Brier score in binary classification assessment". IEEE Access. 9: 78368 - 78381. doi:10.1109/access.2021.3084050. hdl:10281/430460. S2CID 235308708.

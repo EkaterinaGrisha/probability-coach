@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if git diff --cached --name-only | grep -E '(^|/)\.env($|\.)' | grep -v '\.env\.example$' >/dev/null; then
+  echo "pre-commit: .env не должен попадать в коммит (git restore --staged .env)"
+  exit 1
+fi
+
+if git diff --cached -U0 | grep '^+' | grep -E 'sk-[A-Za-z0-9]{20,}|lsv2_[a-z]{2}_[A-Za-z0-9_]{20,}' >/dev/null; then
+  echo "pre-commit: в изменениях строка, похожая на API-ключ"
+  exit 1
+fi

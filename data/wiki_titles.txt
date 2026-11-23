@@ -1,0 +1,101 @@
+# язык | название статьи; тексты Википедии, CC BY-SA 4.0
+
+en | Monty Hall problem
+en | Three prisoners problem
+ru | Парадокс Монти Холла
+ru | Задача трёх узников
+
+en | Base rate fallacy
+en | Bayes' theorem
+en | Confusion of the inverse
+ru | Ошибка базового процента
+ru | Теорема Байеса
+
+en | Conjunction fallacy
+en | Representativeness heuristic
+ru | Ошибка конъюнкции
+
+en | Gambler's fallacy
+en | Clustering illusion
+en | Insensitivity to sample size
+ru | Ошибка игрока
+
+en | Birthday problem
+ru | Парадокс дней рождения
+
+en | Boy or girl paradox
+en | Bertrand's box paradox
+ru | Парадокс мальчика и девочки
+ru | Парадокс коробок Бертрана
+
+en | Simpson's paradox
+en | Regression toward the mean
+ru | Парадокс Симпсона
+ru | Регрессия к среднему
+
+en | Cognitive reflection test
+en | Dual process theory
+en | Availability heuristic
+en | Anchoring effect
+ru | Подмена признака
+ru | Эвристика доступности
+ru | Эффект привязки
+ru | Когнитивное искажение
+
+en | Overconfidence effect
+en | Calibrated probability assessment
+en | Brier score
+ru | Эффект сверхуверенности
+
+en | Conditional probability
+en | Independence (probability theory)
+en | Expected value
+en | Law of large numbers
+en | Law of truly large numbers
+en | Coincidence
+ru | Независимость (теория вероятностей)
+ru | Математическое ожидание
+ru | Закон больших чисел
+ru | Байесовский вывод
+
+en | Sensitivity and specificity
+en | False positives and false negatives
+ru | Чувствительность и специфичность
+ru | Ошибки первого и второго рода
+
+en | Sleeping Beauty problem
+en | Two envelopes problem
+en | St. Petersburg paradox
+en | Bertrand paradox (probability)
+en | Berkson's paradox
+en | Benford's law
+ru | Парадокс Спящей красавицы
+ru | Задача о двух конвертах
+ru | Санкт-петербургский парадокс
+ru | Парадокс Берксона
+ru | Закон Бенфорда
+
+en | Hot hand
+en | Gambler's ruin
+en | Martingale (betting system)
+en | Illusion of control
+en | Texas sharpshooter fallacy
+en | Regression fallacy
+ru | Мартингейл
+ru | Иллюзия контроля
+ru | Апофения
+
+en | Survivorship bias
+en | Hindsight bias
+en | Planning fallacy
+en | Sunk cost
+en | Framing effect (psychology)
+en | Prospect theory
+en | Loss aversion
+ru | Систематическая ошибка выжившего
+ru | Знание задним числом
+ru | Ошибка планирования
+ru | Невозвратные затраты
+ru | Эффект фрейминга
+ru | Теория перспектив
+ru | Неприятие потери

@@ -1,0 +1,121 @@
+The St. Petersburg paradox or St. Petersburg lottery is a paradox involving the game of flipping a coin where the expected payoff of the lottery game is infinite but nevertheless seems to be worth only a very small amount to the participants. The St. Petersburg paradox is a situation where a naïve decision criterion that takes only the expected value into account predicts a course of action that presumably no actual person would be willing to take. Several resolutions to the paradox have been proposed, including the impossible amount of money a casino would need to continue the game indefinitely.
+The problem was invented by Nicolas Bernoulli, who stated it in a letter to Pierre Raymond de Montmort on September 9, 1713. However, the paradox takes its name from its analysis by Nicolas' cousin Daniel Bernoulli, one-time resident of Saint Petersburg, who in 1738 published his thoughts about the problem in the Commentaries of the Imperial Academy of Science of Saint Petersburg.
+
+
+== St. Petersburg game ==
+A casino offers a game of chance for a single player in which a fair coin is tossed at each stage. The initial stake begins at 2 dollars and is doubled every time tails appears. The first time heads appears, the game ends and the player wins whatever is the current stake. Thus the player wins 2 dollars if heads appears on the first toss, 4 dollars if tails appears on the first toss and heads on the second, 8 dollars if tails appears on the first two tosses and heads on the third, and so on. Mathematically, the player wins 2k+1 dollars, where k is the number of consecutive tails tosses. What would be a fair price to pay the casino for entering the game?
+To answer this, one needs to consider what would be the expected payout at each stage: with probability ⁠1/2⁠, the player wins 2 dollars; with probability ⁠1/4⁠ the player wins 4 dollars; with probability ⁠1/8⁠ the player wins 8 dollars, and so on. Assuming the game can continue as long as the coin toss results in tails and, in particular, that the casino has unlimited resources, the expected value is thus
+
+This sum grows without bound so the expected win is an infinite amount of money.
+
+
+== Paradox ==
+Considering nothing but the expected value of the net change in one's monetary wealth, one should therefore play the game at any price if offered the opportunity. Yet, Daniel Bernoulli, after describing the game with an initial stake of one ducat, stated, "Although the standard calculation shows that the value of [the player's] expectation is infinitely great, it has ... to be admitted that any fairly reasonable man would sell his chance, with great pleasure, for twenty ducats." Robert Martin quotes Ian Hacking as saying, "Few of us would pay even $25 to enter such a game", and he says most commentators would agree. The apparent paradox is the discrepancy between what people seem willing to pay to enter the game and the infinite expected value.
+
+
+== Solutions ==
+Several approaches have been proposed for solving the paradox.
+
+
+=== Expected utility theory ===
+The classical resolution of the paradox involved the explicit introduction of a utility function, an expected utility hypothesis, and the presumption of diminishing marginal utility of money.
+According to Daniel Bernoulli:
+
+The determination of the value of an item must not be based on the price, but rather on the utility it yields ... There is no doubt that a gain of one thousand ducats is more significant to the pauper than to a rich man though both gain the same amount.
+A common utility model, suggested by Daniel Bernoulli, is the logarithmic function U(w) = ln(w) (known as log utility). It is a function of the gambler's total wealth w, and the concept of diminishing marginal utility of money is built into it. The expected utility hypothesis posits that a utility function exists that provides a good criterion for real people's behavior; i.e. a function that returns a positive or negative value indicating if the wager is a good gamble. For each possible event, the change in utility ln(wealth after the event) − ln(wealth before the event) will be weighted by the probability of that event occurring. Let c be the cost charged to enter the game. The expected incremental utility of the lottery now converges to a finite value:
+
+This formula gives an implicit relationship between the gambler's wealth and how much he should be willing to pay (specifically, any c that gives a positive change in expected utility). For example, with natural log utility, a millionaire ($1,000,000) should be willing to pay up to $20.88, a person with $1,000 should pay up to $10.95, a person with $2 should borrow $1.35 and pay up to $3.35.
+Before Daniel Bernoulli's 1738 publication, mathematician Gabriel Cramer from the Republic of Geneva had already in 1728 found parts of this idea (also motivated by the St. Petersburg paradox), stating that
+
+the mathematicians estimate money in proportion to its quantity, and men of good sense in proportion to the usage that they may make of it.
+He demonstrated in a letter to Nicolas Bernoulli that a square root function describing the diminishing marginal benefit of gains can resolve the problem. However, unlike Daniel Bernoulli, he did not consider the total wealth of a person, but only the gain by the lottery.
+This solution by Cramer and Bernoulli, however, is not completely satisfying, as the lottery can easily be changed in a way such that the paradox reappears. To this aim, we just need to change the game so that it gives even more rapidly increasing payoffs. For any unbounded utility function, one can find a lottery that allows for a variant of the St. Petersburg paradox, as was first pointed out by Menger.
+Recently, expected utility theory has been extended to arrive at more behavioral decision models. In some of these new theories, as in cumulative prospect theory, the St. Petersburg paradox again appears in certain cases, even when the utility function is concave, but not if it is bounded.
+
+
+=== Probability weighting ===
+Nicolas Bernoulli himself proposed an alternative idea for solving the paradox. He conjectured that people will neglect unlikely events. Since in the St. Petersburg lottery only unlikely events yield the high prizes that lead to an infinite expected value, this could resolve the paradox. The idea of probability weighting resurfaced much later in the work on prospect theory by Daniel Kahneman and Amos Tversky. Paul Weirich similarly wrote that risk aversion could solve the paradox. Weirich went on to write that increasing the prize actually decreases the chance of someone paying to play the game, stating "there is some number of birds in hand worth more than any number of birds in the bush". However, this has been rejected by some theorists because, as they point out, some people enjoy the risk of gambling and because it is illogical to assume that increasing the prize will lead to more risks.
+Cumulative prospect theory is one popular generalization of expected utility theory that can predict many behavioral regularities. However, the overweighting of small probability events introduced in cumulative prospect theory may restore the St. Petersburg paradox. Cumulative prospect theory avoids the St. Petersburg paradox only when the power coefficient of the utility function is lower than the power coefficient of the probability weighting function. Intuitively, the utility function must not simply be concave, but it must be concave relative to the probability weighting function to avoid the St. Petersburg paradox. One can argue that the formulas for the prospect theory are obtained in the region of less than $400. This is not applicable for infinitely increasing sums in the St. Petersburg paradox.
+
+
+=== Finite St. Petersburg lotteries ===
+The classical St. Petersburg game assumes that the casino or banker has infinite resources. This assumption has long been challenged as unrealistic. Alexis Fontaine des Bertins pointed out in 1754 that the resources of any potential backer of the game are finite. More importantly, the expected value of the game only grows logarithmically with the resources of the casino. As a result, the expected value of the game, even when played against a casino with the largest bankroll realistically conceivable, is quite modest. In 1777, Georges-Louis Leclerc, Comte de Buffon calculated that after 29 rounds of play there would not be enough money in the Kingdom of France to cover the bet.
+If the casino has finite resources, the game must end once those resources are exhausted. Suppose the total resources (or maximum jackpot) of the casino are W dollars (more generally, W is measured in units of half the game's initial stake). Then the maximum number of times the casino can play before it no longer can fully cover the next bet is L = ⌊log2(W)⌋. Assuming the game ends when the casino can no longer cover the bet, the expected value E of the lottery then becomes:
+
+E=∑k=1L12k⋅2k=L.
+The following table shows the expected value E of the game with various potential bankers and their bankroll W:
+
+Note: Under game rules which specify that if the player wins more than the casino's bankroll they will be paid all the casino has, the additional expected value is less than it would be if the casino had enough funds to cover one more round, i.e. less than $1. For the player to win W he must be allowed to play round L+1. So the additional expected value is W/2L+1.
+The premise of infinite resources produces a variety of apparent paradoxes in economics. In the martingale betting system, a gambler betting on a tossed coin doubles his bet after every loss so that an eventual win would cover all losses; this system fails with any finite bankroll. The gambler's ruin concept shows that a persistent gambler who raises his bet to a fixed fraction of his bankroll when he wins, but does not reduce his bet when he loses, will eventually and inevitably go broke—even if the game has a positive expected value.
+
+
+=== Ignore events with small probability ===
+Buffon argued that a theory of rational behavior must correspond to what a rational decision-maker would do in real life, and since reasonable people regularly ignore events that are unlikely enough, a rational decision-maker should also ignore such rare events.
+As an estimate of the threshold of ignorability, he argued that, since a 56-year-old man ignores the possibility of dying in the next 24 hours, which had a probability of 1/10189 according to the mortality tables of the day, events with less than 1/10,000 probability could be ignored. Assuming that, the St Petersburg game has an expected payoff of only ∑k=1132k12k=13.
+
+
+=== Rejection of mathematical expectation ===
+Various authors, including Jean le Rond d'Alembert and John Maynard Keynes, have rejected maximization of expectation (even of utility) as a proper rule of conduct. Keynes, in particular, insisted that the relative risk of an alternative could be sufficiently high to reject it even if its expectation were enormous. Recently, some researchers have suggested to replace the expected value by the median as the fair value.
+
+
+=== Ergodicity ===
+An early resolution containing the essential mathematical arguments assuming multiplicative dynamics was put forward in 1870 by William Allen Whitworth. An explicit link to the ergodicity problem was made by Peters in 2011. These solutions are mathematically similar to using the Kelly criterion or logarithmic utility. General dynamics beyond the purely multiplicative case can correspond to non-logarithmic utility functions, as was pointed out by Carr and Cherubini in 2020.
+
+
+== Recent discussions ==
+
+
+=== Feller ===
+A solution involving sampling was offered by William Feller. Intuitively Feller's answer is "to perform this game with a large number of people and calculate the expected value from the sample extraction". In this method, when the games of infinite number of times are possible,  the expected value will be infinity, and in the case of finite, the expected value will be a much smaller value. 
+A paper by Paul Godek and Timothy R. Dulaney (available at Social Science Research Network: https://ssrn.com/abstract=3062683) purports to show that Feller’s analysis provides an internal resolution of the paradox. (The term “internal” distinguishes Feller’s approach from those that rely on explanations external to the game itself. As noted herein, common external explanations for the paradox involve behavioral considerations, such as risk aversion or bounded utility, or practical considerations, such as wealth or time constraints.) The Godek-Dulaney paper applies computer simulation and econometric methods to validate Feller’s model. More controversially, the paper claims that Feller’s model, along with the empirical validation, demonstrates that the premise underlying the paradox – that the St. Petersburg game’s expected value is infinite – is mistaken. Applying Feller’s model, the Godek and Dulaney paper shows how the probability distribution of the game’s duration determines and limits the expected value for any finite number of plays (noting that the paradox is predicated on one play of the game), thereby resolving the paradox. Together, the insights of Feller, Godek, and Dulaney are coherent, but the claim of disproving the premise of the paradox, the infinite expected value,  has not been generally accepted or endorsed.
+
+
+=== Samuelson ===
+Paul Samuelson resolves the paradox by arguing that, even if an entity had infinite resources, the game would never be offered. If the lottery represents an infinite expected gain to the player, then it also represents an infinite expected loss to the host. No one could be observed paying to play the game because it would never be offered. As Samuelson summarized the argument, "Paul will never be willing to give as much as Peter will demand for such a contract; and hence the indicated activity will take place at the equilibrium level of zero intensity."
+
+
+=== Variants ===
+Many variants of the St Petersburg game are proposed to counter proposed solutions to the game.
+For example, the "Pasadena game": let n be the number of coin-flips; if n is odd, the player gains units of 2nn; else the player loses 2nn units of utility. The expected utility from the game is then ∑n=1∞(−1)n+1n=ln⁡2. However, since the sum is not absolutely convergent, it may be rearranged to sum to any number, including positive or negative infinity. This suggests that the expected utility of the Pasadena game depends on the summation order, but standard decision theory does not provide a principled way to choose a summation order.
+
+
+=== Use of decision-making models used in quantitative trading ===
+One approach that is attracting much interest in solving the St Petersburg paradox is to use a parameter related to the cognitive aspect of a strategy. This approach was developed by studying nonergodic systems in finance. There is much research on the non-stationarity of the financial markets.
+From a statistical point of view, knowledge of a phenomenon results in an increase in the probability of prediction. In practice, the results generated by a non-random prediction algorithm, which implements useful information, cannot be reproduced randomly (the probability tends to zero as the number of predictions made increases). Consequently, to understand whether a strategy operates cognitively or randomly, we need only calculate the probability of obtaining an equal or better outcome at random. In the case of the St. Petersburg paradox, the doubling strategy was compared with a constant bet strategy that was completely random but equivalent in terms of the total value of the bets. From this comparison, it is shown that a random constant bet strategy obtains better results with a probability that tends to 50% as the number of bets increases. If the doubling strategy exploited some useful information about the system this probability should tend to zero instead converging to 50%. This shows that this strategy does not use any useful information.
+From this point of view, the St. Petersburg paradox teaches us that an expected gain that tends to infinity does not always imply the presence of a cognitive and non-random strategy. Consequently, from the decision-making point of view, we can create a hierarchy of values, in which knowledge turns out to be more important than expected gain.
+
+
+=== Supercentenarian paradox ===
+A similar dilemma to the St. Petersburg paradox is discussed as the Supercentenarian Paradox in. The paradox asks whether it is rational to bet that a t-year-old person will survive an additional Δt years, where t and Δt are non-negative real numbers. Intuitively, it seems that the odds of survival are very high for any age t, provided the time interval Δt is sufficiently small, such as one day (Δt=1/365).
+However, the certainty of good odds depends critically on the underlying life-time probability distribution. This is analogous to the theoretical underpinnings of the St. Petersburg paradox, where the game's mathematically infinite expected value implies that, in theory, a rational gambler should be willing to pay an arbitrarily large sum to play the game once. In reality, the gambler will almost certainly win only a modest amount. This discrepancy between theoretical expectation and practical judgment led Nicolas Bernoulli to conjecture that people tend to neglect unlikely events.
+
+In both cases, the theoretical result is decisively influenced by the contribution of rare events: very long sequences of tails (St. Petersburg) or the survival of people to extraordinarily old ages (Supercentenarian). While these very large values of t (old ages) are crucial for the theoretical calculation, they are too improbable to significantly impact real-world decision-making.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Notes ==
+
+
+== Further reading ==
+Arrow, Kenneth J. (February 1974). "The use of unbounded utility functions in expected-utility maximization: Response" (PDF). Quarterly Journal of Economics. 88 (1): 136–138. doi:10.2307/1881800. JSTOR 1881800.
+Aumann, Robert J. (April 1977). "The St. Petersburg paradox: A discussion of some recent comments". Journal of Economic Theory. 14 (2): 443–445. doi:10.1016/0022-0531(77)90143-0.
+Cappiello, Antonio (2016). "Decision Making And Saint Petersburg Paradox: Focusing On Heuristic Parameters, Considering The Non-Ergodic Context And The Gambling Risks". Rivista italiana di economia demografia e statistica. 70 (4): 147–158. ISSN 0035-6832. RePEc:ite:iteeco:160406.
+Durand, David (September 1957). "Growth Stocks and the Petersburg Paradox". The Journal of Finance. 12 (3): 348–363. doi:10.2307/2976852. JSTOR 2976852.
+Haigh, John (1999). Taking Chances. Oxford, UK: Oxford University Press. pp. 330. ISBN 978-0-19-852663-6.(Chapter 4)
+Jeffrey, Richard C. (1983). The Logic of Decision (2 ed.). Chicago: University of Chicago Press.
+Laplace, Pierre Simon (1814). Théorie analytique des probabilités [Analytical theory of probabilities] (in French) (Second ed.). Paris: Ve. Courcier.
+Peters, Ole (October 2011b). "Menger 1934 revisited". arXiv:1110.1578 [q-fin.RM].
+Peters, Ole; Gell-Mann, Murray (2016). "Evaluating gambles using dynamics". Chaos. 26 (2): 023103. arXiv:1405.0585. Bibcode:2016Chaos..26b3103P. doi:10.1063/1.4940236. PMID 26931584. S2CID 9726238.
+Samuelson, Paul (March 1977). "St. Petersburg Paradoxes: Defanged, Dissected, and Historically Described". Journal of Economic Literature. 15 (1): 24–55. JSTOR 2722712.
+Sen, P.K.; Singer, J.M. (1993). Large Sample Methods in Statistics. An Introduction with Applications. New York: Springer. ISBN 978-0-412-04221-8.
+Todhunter, Isaac (1865). A history of the mathematical theory of probabilities. Macmillan & Co.
+"Bernoulli and the St. Petersburg Paradox". The History of Economic Thought. The New School for Social Research, New York. Archived from the original on June 18, 2006. Retrieved May 30, 2006.
+
+
+== External links ==
+Online simulation of the St. Petersburg lottery

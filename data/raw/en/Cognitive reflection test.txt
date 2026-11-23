@@ -1,0 +1,40 @@
+In psychology, the cognitive reflection test (CRT) is a task designed to measure a person's tendency to override an incorrect "gut" response and engage in further reflection to find a correct answer. However, the validity of the assessment as a measure of "cognitive reflection" or "intuitive thinking" is under question. It was first described in 2005 by Shane Frederick. The CRT has a moderate positive correlation with measures of intelligence, such as the IQ test, and it correlates highly with various measures of mental heuristics. Some researchers argue that the CRT is actually measuring cognitive abilities (colloquially known as intelligence).
+Later research has shown that the CRT is a multifaceted construct: many start their response with the correct answer, while others fail to solve the test even if they reflect on their intuitive first answer. It has also been argued that suppression of the first answer is not the only factor behind the successful performance on the CRT; numeracy and reflectivity both account for performance.
+
+
+== Basis of test ==
+According to Frederick, there are two general types of cognitive activity called "system 1" and "system 2" (these terms have been first used by Keith Stanovich and Richard West). System 1 is executed quickly without reflection, while system 2 requires conscious thought and effort. The cognitive reflection test has three questions that each have an obvious but incorrect response given by system 1. The correct response requires the activation of system 2. For system 2 to be activated, a person must note that their first answer is incorrect, which requires reflection on their own cognition.
+
+
+== Correlating measures ==
+The test has been found to correlate with many measures of economic thinking, such as numeracy,  temporal discounting, risk preference, and gambling preference. It has also been correlated with measures of mental heuristics, such as the gambler's fallacy, understanding of regression to the mean, the sunk cost fallacy, and others.
+Keith Stanovich found that cognitive ability is not strongly correlated with CRT scores because it will only lead to better CRT performance under certain conditions. First, the test-taker must recognize the need to override their system 1 response, and then they must have available cognitive resources to carry out the override. If the test-taker does not need to inhibit system 1 for the override, then the system 2 response immediately follows. Otherwise, they must have the capacity to sustain inhibition of system 1 in order to engage the system 2 response. Contrarily, some researchers have assessed the validity of the assessment, using an advanced item response theory method, and found that the CRT likely measures cognitive ability. The authors of the study explain the validity of the CRT has been questioned due to the lack of validity studies and the lack of a psychometric approach.
+
+
+== Test questions and answers ==
+The original test penned by Frederick contained only the three following questions: 
+
+A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?
+If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?
+In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake?
+The intuitive answers to these questions that "system 1" gives typically are: 10 cents, 100 minutes, and 24 days; while the correct solutions are: 5 cents, 5 minutes, and 47 days.
+
+
+== Neurodiversity ==
+Research applying the CRT to neurodivergent populations, especially autism, has explored differences in intuitive versus deliberative processing. Initial studies have been formative to the Dual Process Theory of Autism, indicating that autistic adults or those with high autistic traits show fewer intuitive incorrect responses and a tendency towards greater reflective processing on CRT relative to non-autistic peers. However, the evidence has been mixed, as autistic individuals self-report lower levels of intuition, objective performance including deliberation measure is comparable control. Extending this to a larger population, however, neurodivergent students were found to be equivalent to other students on CRT across cultures. But once these groups were split into autism, ADHD, dyspraxia, dyscalculia and dyslexia. Dyscalculic students scored lower on CRT deliberative performance than non-dyscalculic adults, while dyslexic adults scored higher on CRT deliberative performance than non-dyslexic adults. This indicates that academic challenges in this group might be more closely related to high levels of co-occurring anxiety, as opposed to an impairment in their capacity for cognitive reflection.
+
+
+== Limitations and alternatives ==
+Studies have estimated that between 44 and 51% of research participants have previously been exposed to the CRT. Those participants that are familiar with the CRT tend to outscore those with no previous exposure, which raises questions about the validity of the measure in this population.  In an effort to combat limitations associated with familiarity, researchers have developed a variety of alternative measures of cognitive reflection.
+Recent research, however, suggests that the CRT is robust to multiple exposure, so that despite the raw score increases in experienced participants, its correlations with other variables remain unaffected.
+Another limitation is due to a lack of strong psychometric properties and scarcity of validity studies in the literature.  The CRT was not designed in a manner that aligns with standards of the industry such as the Standards for Educational and Psychological Testing which was developed by the American Educational Research Association, American Psychological Association, & National Council on Measurement in Education.
+
+
+== See also ==
+Dual process theory, it gives more background about "system 1" and "system 2" thinking
+Thinking, Fast and Slow, book by Daniel Kahneman
+Trick question
+Wason selection task, a test of deductive reasoning
+
+
+== References ==

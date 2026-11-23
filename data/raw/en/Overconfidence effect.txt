@@ -1,0 +1,115 @@
+The overconfidence effect is a cognitive bias in which a person's subjective confidence in their judgments is reliably greater than the objective accuracy of those judgments, especially when confidence is relatively high. 
+Overconfidence is one example of a miscalibration of subjective probabilities. Throughout the research literature, overconfidence has been defined in three distinct ways: (1) overestimation of one's actual performance; (2) overplacement of one's performance relative to others; and (3) overprecision in expressing unwarranted certainty in the accuracy of one's beliefs.
+The most common way in which overconfidence has been studied is by asking people how confident they are of specific beliefs they hold or answers they provide.  The data show that confidence systematically exceeds accuracy, implying people are more sure that they are correct than they deserve to be. If human confidence had perfect calibration, judgments with 100% confidence would be correct 100% of the time, 90% confidence correct 90% of the time, and so on for the other levels of confidence. By contrast, the key finding is that confidence exceeds accuracy so long as the subject is answering hard questions about an unfamiliar topic. For example, in a spelling task, subjects were correct about 80% of the time, whereas they claimed to be 100% certain. Put another way, the error rate was 20% when subjects expected it to be 0%.  In a series where subjects made true-or-false responses to general knowledge statements, they were overconfident at all levels. When they were 100% certain of their answer to a question, they were wrong 20% of the time.
+
+
+== Types ==
+
+
+=== Overestimation ===
+One manifestation of the overconfidence effect is the tendency to overestimate one's standing on a dimension of judgment or performance. This subsection of overconfidence focuses on the certainty one feels in their own ability, performance, level of control, or chance of success. This phenomenon is most likely to occur on hard tasks, hard items, when failure is likely or when the individual making the estimate is not especially skilled. Overestimation has been seen to occur across domains other than those pertaining to one's own performance. This includes the illusion of control, planning fallacy.
+
+
+==== Illusion of control ====
+Illusion of control describes the tendency for people to behave as if they might have some control when in fact they have none. However, evidence does not support the notion that people systematically overestimate how much control they have; when they have a great deal of control, people tend to underestimate how much control they have.
+
+
+==== Planning fallacy ====
+The planning fallacy describes the tendency for people to overestimate their rate of work or to underestimate how long it will take them to get things done. It is strongest for long and complicated tasks, and disappears or reverses for simple tasks that are quick to complete.
+
+
+==== Contrary evidence ====
+Wishful-thinking effects, in which people overestimate the likelihood of an event because of its desirability, are relatively rare.
+This may be in part because people engage in more defensive pessimism in advance of important outcomes, in an attempt to reduce the disappointment that follows overly optimistic predictions.
+
+
+=== Overprecision ===
+Overprecision is the excessive confidence that one knows the truth. For reviews, see Harvey or Hoffrage.
+Much of the evidence for overprecision comes from studies in which participants are asked about their confidence that individual items are correct. This paradigm, while useful, cannot distinguish overestimation from overprecision; they are one and the same in these item-confidence judgments. After making a series of item-confidence judgments, if people try to estimate the number of items they got right, they do not tend to systematically overestimate their scores. The average of their item-confidence judgments exceeds the count of items they claim to have gotten right.
+One possible explanation for this is that item-confidence judgments were inflated by overprecision, and that their judgments do not demonstrate systematic overestimation.
+
+
+==== Confidence intervals ====
+The strongest evidence of overprecision comes from studies in which participants are asked to indicate how precise their knowledge is by specifying a 90% confidence interval around estimates of specific quantities. If people were perfectly calibrated, their 90% confidence intervals would include the correct answer 90% of the time.
+In fact, hit rates are often as low as 50%, suggesting people have drawn their confidence intervals too narrowly, implying that they think their knowledge is more accurate than it actually is.
+
+
+=== Overplacement ===
+Overplacement is the most prominent manifestation of the overconfidence effect which is a belief that erroneously rates someone as better than others. This subsection of overconfidence occurs when people believe themselves to be better than others, or "better-than-average". It is the act of placing yourself or rating yourself above others (superior to others). Overplacement more often occurs on simple tasks, ones we believe are easy to accomplish successfully.
+
+
+==== Manifestations ====
+
+
+===== Better-than-average effects =====
+
+Perhaps the most celebrated better-than-average finding is Svenson's finding that 93% of American drivers rate themselves as better than the median.
+The frequency with which school systems claim their students outperform national averages has been dubbed the "Lake Wobegon" effect, after Garrison Keillor's apocryphal town in which "all the children are above average."  Overplacement has likewise been documented in a wide variety of other circumstances.
+Kruger, however, showed that this effect is limited to "easy" tasks in which success is common or in which people feel competent. For difficult tasks, the effect reverses itself and people believe they are worse than others.
+
+
+===== Comparative-optimism effects =====
+Some researchers have claimed that people think good things are more likely to happen to them than to others, whereas bad events were less likely to happen to them than to others.
+But others have pointed out that prior work tended to examine good outcomes that happened to be common (such as owning one's own home) and bad outcomes that happened to be rare (such as being struck by lightning).
+Event frequency accounts for a proportion of prior findings of comparative optimism.  People think common events (such as living past 70) are more likely to happen to them than to others, and rare events (such as living past 100) are less likely to happen to them than to others.
+
+
+===== Positive illusions =====
+
+Taylor and Brown have argued that people cling to overly positive beliefs about themselves, illusions of control, and beliefs in false superiority, because it helps them cope and thrive.
+Although there is some evidence that optimistic beliefs are correlated with better life outcomes, most of the research documenting such links is vulnerable to the alternative explanation that their forecasts are accurate.
+
+
+=== Social knowledge ===
+People tend to overestimate what they personally know, unconsciously assuming they know facts they would actually need to access by asking someone else or consulting a written work. Asking people to explain how something works (like a bicycle, helicopter, or international policy) exposes knowledge gaps and reduces the overestimation of knowledge on that topic.
+
+
+== Practical implications ==
+
+Social psychologist Scott Plous wrote, "No problem in judgment and decision making is more prevalent and more potentially catastrophic than overconfidence." It has been blamed for lawsuits, strikes, wars, poor corporate acquisitions, and stock market bubbles and crashes.
+Strikes, lawsuits, and wars could arise from overplacement. If plaintiffs and defendants were prone to believe that they were more deserving, fair, and righteous than their legal opponents, that could help account for the persistence of inefficient enduring legal disputes.
+If corporations and unions were prone to believe that they were stronger and more justified than the other side, that could contribute to their willingness to endure labor strikes.
+If nations were prone to believe that their militaries were stronger than were those of other nations, that could explain their willingness to go to war.
+Overprecision could have important implications for investing behavior and stock market trading.  Because Bayesians cannot agree to disagree, classical finance theory has trouble explaining why, if stock market traders are fully rational Bayesians, there is so much trading in the stock market.  Overprecision might be one answer. If market actors are too sure their estimates of an asset's value is correct, they will be too willing to trade with others who have different information than they do.
+Oskamp tested groups of clinical psychologists and psychology students on a multiple-choice task in which they drew conclusions from a case study. Along with their answers, subjects gave a confidence rating in the form of a percentage likelihood of being correct. This allowed confidence to be compared against accuracy. As the subjects were given more information about the case study, their confidence increased from 33% to 53%. However their accuracy did not significantly improve, staying under 30%. Hence this experiment demonstrated overconfidence which increased as the subjects had more information to base their judgment on.
+Even if there is no general tendency toward overconfidence, social dynamics and adverse selection could conceivably promote it.  For instance, those most likely to have the courage to start a new business are those who most overplace their abilities relative to those of other potential entrants.  And if voters find confident leaders more credible, then contenders for leadership learn that they should express more confidence than their opponents in order to win election. However, Overconfidence can be liability or asset during the political election. Candidates tend to lose advantage when verbally expressed overconfidence does not meet current performance, and tend to gain advantage express overconfidence non-verbally.
+Overconfidence can be beneficial to individual self-esteem as well as giving an individual the will to succeed in their desired goal. Just believing in oneself may give one the will to take one's endeavours further than those who do not.
+
+
+=== Overconfidence among experts ===
+Kahneman and Klein further document how most experts can be beaten by simple heuristics developed by intelligent lay people.  Genuine expert intuition is acquired by learning from frequent, rapid, high-quality feedback about the quality of previous judgments. Few professionals have that.  Those who master a body of knowledge without learning from such expertise are called "respect experts" by Kahneman, Sibony, and Sunstein.  With some data, ordinary least squares (OLS) models often outperform simple heuristics.  With lots of data, artificial intelligence (AI) routinely outperforms OLS.
+
+
+== Individual differences ==
+Very high levels of core self-evaluations, a stable personality trait composed of locus of control, neuroticism, self-efficacy, and self-esteem, may lead to the overconfidence effect. People who have high core self-evaluations will think positively of themselves and be confident in their own abilities, although extremely high levels of core self-evaluations may cause an individual to be more confident than is warranted.
+
+
+== Catastrophes ==
+The following is an incomplete list of events related or triggered by bias/overconfidence and a failing (safety) culture:
+
+Chernobyl disaster
+Sinking of the Titanic
+Space Shuttle Challenger disaster
+Space Shuttle Columbia disaster
+Deepwater Horizon oil spill
+Titan submersible implosion
+Chicago flood
+Hyatt Regency walkway collapse
+Aberfan disaster
+
+
+== See also ==
+
+
+== References ==
+Plous, Scott (1993). The psychology of judgment and decision making. S&P Global. ISBN 0-07-050477-6. Wikidata Q118105219.
+
+
+== Notes ==
+
+
+== Further reading ==
+Larrick, Richard P.; Burson, Katherine A.; Soll, Jack B. (2007). "Social comparison and confidence: When thinking you're better than average predicts overconfidence (and when it does not)". Organizational Behavior and Human Decision Processes. 102 (1): 76–94. doi:10.1016/j.obhdp.2006.10.002.
+Baron, Johnathan (1994). Thinking and Deciding. Cambridge University Press. pp. 219–224. ISBN 978-0-521-43732-5.
+Gilovich, Thomas; Griffin, Dale; Kahneman, Daniel (2002). Heuristics and Biases: The Psychology of Intuitive Judgment. Cambridge University Press. ISBN 978-0-521-79679-8.
+Sutherland, Stuart (2007). Irrationality. Pinter & Martin. pp. 172–178. ISBN 978-1-905177-07-3.

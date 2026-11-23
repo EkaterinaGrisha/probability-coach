@@ -1,0 +1,137 @@
+The base rate fallacy, also called base rate neglect or base rate bias, is a type of fallacy in which people tend to ignore the base rate (e.g., general prevalence) in favor of the  information pertaining only to a specific case. Base rate neglect is a specific form of the more general extension neglect.
+It is also called the prosecutor's fallacy or defense attorney's fallacy when applied to the results of statistical tests (such as DNA tests) in the context of law proceedings. These terms were introduced by William C. Thompson and Edward Schumann in 1987, although it has been argued that their definition of the prosecutor's fallacy extends to many additional invalid imputations of guilt or liability that are not analyzable as errors in base rates or Bayes's theorem.
+
+
+== False positive paradox ==
+An example of the base rate fallacy is the false positive paradox (also known as accuracy paradox). This paradox describes situations where there are more false positive test results than true positives (this means the classifier has a low precision). For example, if a facial recognition camera can identify wanted criminals 99% accurately, but analyzes 10,000 people a day, the high accuracy is outweighed by the number of tests; because of this, the program's list of criminals will likely have far more innocents (false positives) than criminals (true positives) because there are far more innocents than criminals overall. The probability of a positive test result is determined not only by the accuracy of the test but also by the characteristics of the sampled population. The fundamental issue is that the far higher prevalence of true negatives means that the pool of people testing positively will be dominated by false positives, given that even a small fraction of the much larger [negative] group will produce a larger number of indicated positives than the larger fraction of the much smaller [positive] group.
+When the prevalence, the proportion of those who have a given condition, is lower than the test's false positive rate, even tests that have a very low risk of giving a false positive in an individual case will give more false than true positives overall.
+It is especially counter-intuitive when interpreting a positive result in a test on a low-prevalence population after having dealt with positive results drawn from a high-prevalence population. If the false positive rate of the test is higher than the proportion of the new population with the condition, then a test administrator whose experience has been drawn from testing in a high-prevalence population may conclude from experience that a positive test result usually indicates a positive subject, when in fact a false positive is far more likely to have occurred.
+
+
+== Examples ==
+
+
+=== Example 1: Disease ===
+
+
+==== High-prevalence population ====
+
+Imagine running an infectious disease test on a population A of 1,000 people, of which 40% are infected. The test has a false positive rate of 5% (0.05) and a false negative rate of zero. The expected outcome of the 1,000 tests on population A would be:
+
+So, in population A, a person receiving a positive test could be over 93% confident (⁠400/30 + 400⁠) that it correctly indicates infection.
+
+
+==== Low-prevalence population ====
+
+Now consider the same test applied to population B, of which only 2% are infected. The expected outcome of 1000 tests on population B would be:
+
+In population B, only 20 of the 69 total people with a positive test result are actually infected. So, the probability of actually being infected after one is told that one is infected is only 29% (⁠20/20 + 49⁠) for a test that otherwise appears to be "95% accurate".
+A tester with experience of group A might find it a paradox that in group B, a result that had usually correctly indicated infection is now usually a false positive. The confusion of the posterior probability of infection with the prior probability of receiving a false positive is a natural error after receiving a health-threatening test result.
+
+
+=== Example 2: Drunk drivers ===
+Imagine that a group of police officers have breathalyzers displaying false drunkenness in 5% of the cases in which the driver is sober. However, the breathalyzers never fail to detect a truly drunk person. One in a thousand drivers is driving drunk. Suppose the police officers then stop a driver at random to administer a breathalyzer test. It indicates that the driver is drunk. No other information is known about them.
+Many would estimate the probability that the driver is drunk as high as 95%, but the correct probability is about 2%.
+An explanation for this is as follows: on average, for every 1,000 drivers tested,
+
+1 driver is drunk, and it is 100% certain that for that driver there is a true positive test result, so there is 1 true positive test result
+999 drivers are not drunk, and among those drivers there are 5% false positive test results, so there are 49.95 false positive test results
+Therefore, the probability that any given driver among the 1 + 49.95 = 50.95 positive test results really is drunk is 1/50.95≈1.9627%.
+The validity of this result does, however, hinge on the validity of the initial assumption that the police officer stopped the driver truly at random, and not because of bad driving. If that or another non-arbitrary reason for stopping the driver was present, then the calculation also involves the probability of a drunk driver driving competently and a non-drunk driver driving (in-)competently.
+More formally, the same probability of roughly 0.02 can be established using Bayes' theorem. The goal is to find the probability that the driver is drunk given that the breathalyzer indicated they are drunk, which can be represented as
+p(drunk∣D)
+where D means that the breathalyzer indicates that the driver is drunk. Using Bayes's theorem,
+p(drunk∣D)=p(D∣drunk)p(drunk)p(D).
+The following information is known in this scenario:
+p(drunk)=0.001,p(sober)=0.999,p(D∣drunk)=1.00,p(D∣sober)=0.05.
+As can be seen from the formula, one needs p(D) for Bayes' theorem, which can be computed from the preceding values using the law of total probability:
+p(D)=p(D∣drunk)p(drunk)+p(D∣sober)p(sober)
+which gives
+p(D)=(1.00×0.001)+(0.05×0.999)=0.05095.
+Substituting these numbers into Bayes' theorem, one finds that
+p(drunk∣D)=1.00×0.0010.05095≈0.019627,
+which is the precision of the test.
+
+
+=== Example 3: Terrorist identification ===
+In a city of 1 million inhabitants, let there be 100 terrorists and 999,900 non-terrorists. To simplify the example, assume that all people present in the city are inhabitants. Thus, the base rate probability of a randomly selected inhabitant of the city being a terrorist is 0.0001, and the base rate probability of that same inhabitant being a non-terrorist is 0.9999. In an attempt to catch the terrorists, the city installs an alarm system with a surveillance camera and automatic facial recognition software.
+The software has two failure rates of 1%:
+
+The false negative rate: If the camera scans a terrorist, a bell will ring 99% of the time, and it will fail to ring 1% of the time.
+The false positive rate: If the camera scans a non-terrorist, a bell will not ring 99% of the time, but it will ring 1% of the time.
+Suppose now that an inhabitant triggers the alarm. Someone making the base rate fallacy would infer that there is a 99% probability that the detected person is a terrorist. Although the inference seems to make sense, it is actually bad reasoning, and a calculation below will show that the probability of a terrorist is actually near 1%, not near 99%.
+The fallacy arises from confusing the natures of two different failure rates. The 'number of non-bells per 100 terrorists' (P(¬B | T), or the probability that the bell fails to ring given the inhabitant is a terrorist) and the 'number of non-terrorists per 100 bells' (P(¬T | B), or the probability that the inhabitant is a non-terrorist given the bell rings) are unrelated quantities; one is not necessarily equal—or even close—to the other. To show this, consider what happens if an identical alarm system were set up in a second city with no terrorists at all. As in the first city, the alarm sounds for 1 out of every 100 non-terrorist inhabitants detected, but unlike in the first city, the alarm never sounds for a terrorist. Therefore, 100% of all occasions of the alarm sounding are for non-terrorists, but a false negative rate cannot even be calculated. The 'number of non-terrorists per 100 bells' in that city is 100, yet P(T | B) = 0%. There is zero chance that a terrorist has been detected given the ringing of the bell.
+Imagine that the first city's entire population of one million people pass in front of the camera. About 99 of the 100 terrorists will trigger the alarm—and so will about 9,999 of the 999,900 non-terrorists. Therefore, about 10,098 people will trigger the alarm, among which about 99 will be terrorists. The probability that a person triggering the alarm actually is a terrorist is only about 99 in 10,098, which is less than 1% and very, very far below the initial guess of 99%.
+The base rate fallacy is so misleading in this example because there are many more non-terrorists than terrorists, and the number of false positives (non-terrorists scanned as terrorists) is so much larger than the true positives (terrorists scanned as terrorists).
+Multiple practitioners have argued that as the base rate of terrorism is extremely low, using data mining and predictive algorithms to identify terrorists cannot feasibly work due to the false positive paradox. Estimates of the number of false positives for each accurate result vary from over ten thousand to one billion; consequently, investigating each lead would be cost- and time-prohibitive. The level of accuracy required to make these models viable is likely unachievable. Foremost, the low base rate of terrorism also means there is a lack of data with which to make an accurate algorithm. Further, in the context of detecting terrorism false negatives are highly undesirable and thus must be minimised as much as possible; however, this requires increasing sensitivity at the cost of specificity, increasing false positives. It is also questionable whether the use of such models by law enforcement would meet the requisite burden of proof given that over 99% of results would be false positives.
+A distinct mechanism amplifies this effect in multi-attribute screening. While matching 15 specific pre-determined attributes has probability 10−35 (one in 30 decillion), systems that flag individuals matching any 15 of 1,000 attributes have per-person false alert probabilities around 10−4—a difference of 31 orders of magnitude arising from the combinatorics of threshold rules, not low base rates alone. In a city of one million, this produces approximately 226 false alerts; the probability of zero false alerts is roughly 10−99. Such systems exhibit sharp phase transitions at critical population sizes, beyond which failure becomes certain and cannot be prevented through threshold adjustment.
+
+
+=== Example 4: biological testing of a suspect ===
+A crime is committed. Forensic analysis determines that the perpetrator has a certain blood type shared by 10% of the population. A suspect is arrested, and found to have that same blood type.
+A prosecutor might charge the suspect with the crime on that basis alone, and claim at trial that the probability that the defendant is guilty is 90%.
+However, this conclusion is only close to correct if the defendant was selected as the main suspect based on robust evidence discovered prior to the blood test and unrelated to it. Otherwise, the reasoning presented is flawed, as it overlooks the high prior probability (that is, prior to the blood test) that he is a random innocent person. Assume, for instance, that 1000 people live in the town where the crime occurred. This means that 100 people live there who have the perpetrator's blood type, of whom only one is the true perpetrator; therefore, the true probability that the defendant is guilty – based only on the fact that his blood type matches that of the killer – is only 1%, far less than the 90% argued by the prosecutor.
+The prosecutor's fallacy involves assuming that the prior probability of a random match is equal to the probability that the defendant is innocent. When using it, a prosecutor questioning an expert witness may ask: "The odds of finding this evidence on an innocent man are so small that the jury can safely disregard the possibility that this defendant is innocent, correct?" The claim assumes that the probability that evidence is found on an innocent man is the same as the probability that a man is innocent given that evidence was found on him, which is not true. Whilst the former is usually small (10% in the previous example) due to good forensic evidence procedures, the latter (99% in that example) does not directly relate to it and will often be much higher, since, in fact, it depends on the likely quite high prior odds of the defendant being a random innocent person.
+
+
+== Examples in law ==
+
+
+=== O. J. Simpson trial ===
+
+O. J. Simpson was tried and acquitted in 1995 for the murders of his ex-wife Nicole Brown Simpson and her friend Ronald Goldman.
+Crime scene blood matched Simpson's with characteristics shared by 1 in 400 people. However, the defense argued that the number of people from Los Angeles matching the sample could fill a football stadium and that the figure of 1 in 400 was useless. It would have been incorrect, and an example of prosecutor's fallacy, to rely solely on the "1 in 400" figure to deduce that a given person matching the sample would be likely to be the culprit.
+
+In the same trial, the prosecution presented evidence that Simpson had been violent toward his wife. The defense argued that there was only one woman murdered for every 2500 women who were subjected to spousal abuse, and that any history of Simpson being violent toward his wife was irrelevant to the trial. However, the reasoning behind the defense's calculation was fallacious. According to author Gerd Gigerenzer, the correct probability requires additional context: Simpson's wife had not only been subjected to domestic violence, but rather subjected to domestic violence (by Simpson) and killed (by someone). Gigerenzer writes "the chances that a batterer actually murdered his partner, given that she has been killed, is about 8 in 9 or approximately 90%". While most cases of spousal abuse do not end in murder, most cases of murder where there is a history of spousal abuse were committed by the spouse.
+
+
+=== Sally Clark case ===
+Sally Clark, a British woman, was accused in 1998 of having killed her first child at 11 weeks of age and then her second child at 8 weeks of age. The prosecution had expert witness Sir Roy Meadow, a professor and consultant paediatrician, testify that the probability of two children in the same family dying from SIDS is about 1 in 73 million. That was much less frequent than the actual rate measured in historical data –  Meadow estimated it from single-SIDS death data, and the assumption that the probability of such deaths should be uncorrelated between infants.
+Meadow acknowledged that 1-in-73 million is not an impossibility, but argued that such accidents would happen "once every hundred years" and that, in a country of 15 million 2-child families, it is vastly more likely that the double-deaths are due to Münchausen syndrome by proxy than to such a rare accident. However, there is good reason to suppose that the likelihood of a death from SIDS in a family is significantly greater if a previous child has already died in these circumstances, (a genetic predisposition to SIDS is likely to invalidate that assumed statistical independence) making some families more susceptible to SIDS and the error an outcome of the ecological fallacy. The likelihood of two SIDS deaths in the same family cannot be soundly estimated by squaring the likelihood of a single such death in all otherwise similar families.
+The 1-in-73 million figure greatly underestimated the chance of two successive accidents, but even if that assessment were accurate, the court seems to have missed the fact that the 1-in-73 million number meant nothing on its own. As an a priori probability, it should have been weighed against the a priori probabilities of the alternatives. Given that two deaths had occurred, one of the following explanations must be true, and all of them are a priori extremely improbable:
+
+Two successive deaths in the same family, both by SIDS
+Double homicide (the prosecution's case)
+Other possibilities (including one homicide and one case of SIDS)
+It is unclear whether an estimate of the probability for the second possibility was ever proposed during the trial, or whether the comparison of the first two probabilities was understood to be the key estimate to make in the statistical analysis assessing the prosecution's case against the case for innocence.
+Clark was convicted in 1999, resulting in a press release by the Royal Statistical Society which pointed out the mistakes.
+In 2002, Ray Hill (a mathematics professor at Salford) attempted to accurately compare the chances of these two possible explanations; he concluded that successive accidents are between 4.5 and 9 times more likely than are successive murders, so that the a priori odds of Clark's guilt were between 4.5 to 1 and 9 to 1 against.
+After the court found that the forensic pathologist who had examined both babies had withheld exculpatory evidence, a higher court later quashed Clark's conviction, on 29 January 2003.
+
+
+== Findings in psychology ==
+In experiments, people have been found to prefer individuating information over general information when the former is available.
+In some experiments, students were asked to estimate the grade point averages (GPAs) of hypothetical students. When given relevant statistics about GPA distribution, students tended to ignore them if given descriptive information about the particular student even if the new descriptive information was obviously of little or no relevance to school performance. This finding has been used to argue that interviews are an unnecessary part of the college admissions process because interviewers are unable to pick successful candidates better than basic statistics.
+Psychologists Daniel Kahneman and Amos Tversky attempted to explain this finding in terms of a simple rule or "heuristic" called representativeness. They argued that many judgments relating to likelihood, or to cause and effect, are based on how representative one thing is of another, or of a category. Kahneman considers base rate neglect to be a specific form of extension neglect. Richard Nisbett has argued that some attributional biases like the fundamental attribution error are instances of the base rate fallacy: people do not use the "consensus information" (the "base rate") about how others behaved in similar situations and instead prefer simpler dispositional attributions.
+There is considerable debate in psychology on the conditions under which people do or do not appreciate base rate information. Researchers in the heuristics-and-biases program have stressed empirical findings showing that people tend to ignore base rates and make inferences that violate certain norms of probabilistic reasoning, such as Bayes' theorem. The conclusion drawn from this line of research was that human probabilistic thinking is fundamentally flawed and error-prone. Other researchers have emphasized the link between cognitive processes and information formats, arguing that such conclusions are not generally warranted.
+Consider again Example 2 from above. The required inference is to estimate the (posterior) probability that a (randomly picked) driver is drunk, given that the breathalyzer test is positive. Formally, this probability can be calculated using Bayes' theorem, as shown above. However, there are different ways of presenting the relevant information. Consider the following, formally equivalent variant of the problem:
+
+ 1 out of 1000 drivers are driving drunk. The breathalyzers never fail to detect a truly drunk person. For 50 out of the 999 drivers who are not drunk the breathalyzer falsely displays drunkenness. Suppose the policemen then stop a driver at random, and force them to take a breathalyzer test. It indicates that they are drunk. No other information is known about them. Estimate the probability the driver is really drunk.
+In this case, the relevant numerical information—p(drunk), p(D | drunk), p(D | sober)—is presented in terms of natural frequencies with respect to a certain reference class (see reference class problem). Empirical studies show that people's inferences correspond more closely to Bayes' rule when information is presented this way, helping to overcome base-rate neglect in laypeople and experts. As a consequence, organizations like the Cochrane Collaboration recommend using this kind of format for communicating health statistics. Teaching people to translate these kinds of Bayesian reasoning problems into natural frequency formats is more effective than merely teaching them to plug probabilities (or percentages) into Bayes' theorem. It has also been shown that graphical representations of natural frequencies (e.g., icon arrays, hypothetical outcome plots) help people to make better inferences.
+One important reason why natural frequency formats are helpful is that this information format facilitates the required inference because it simplifies the necessary calculations. This can be seen when using an alternative way of computing the required probability p(drunk|D):
+
+p(drunk∣D)=N(drunk∩D)N(D)=151=0.0196
+where N(drunk ∩ D) denotes the number of drivers that are drunk and get a positive breathalyzer result, and N(D) denotes the total number of cases with a positive breathalyzer result. The equivalence of this equation to the above one follows from the axioms of probability theory, according to which N(drunk ∩ D) = N × p (D | drunk) × p (drunk). Importantly, although this equation is formally equivalent to Bayes' rule, it is not psychologically equivalent. Using natural frequencies simplifies the inference because the required mathematical operation can be performed on natural numbers, instead of normalized fractions (i.e., probabilities), because it makes the high number of false positives more transparent, and because natural frequencies exhibit a "nested-set structure".
+Not every frequency format facilitates Bayesian reasoning. Natural frequencies refer to frequency information that results from natural sampling, which preserves base rate information (e.g., number of drunken drivers when taking a random sample of drivers). This is different from systematic sampling, in which base rates are fixed a priori (e.g., in scientific experiments). In the latter case it is not possible to infer the posterior probability p(drunk | positive test) from comparing the number of drivers who are drunk and test positive compared to the total number of people who get a positive breathalyzer result, because base rate information is not preserved and must be explicitly re-introduced using Bayes' theorem.
+
+
+== See also ==
+Precision and recall
+Data dredging – Misuse of data analysis
+Evidence under Bayes' theorem – Interpretation of probabilityPages displaying short descriptions of redirect targets
+Inductive argument – Method of logical reasoningPages displaying short descriptions of redirect targets
+List of cognitive biases
+List of paradoxes – List of statements that appear to contradict themselves
+Misleading vividness – Evidence relying on personal testimonyPages displaying short descriptions of redirect targets
+Prevention paradox – Situation in epidemiology
+Simpson's paradox – Error in statistical reasoning with groups
+Intuitive statistics
+R v Adams
+Denominator neglect
+
+
+== References ==
+
+
+== External links ==
+The Base Rate Fallacy The Fallacy Files

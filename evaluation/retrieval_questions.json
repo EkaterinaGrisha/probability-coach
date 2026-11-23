@@ -1,0 +1,1094 @@
+[
+  {
+    "question": "Почему в квантовой версии парадокса игрок может иногда гарантированно получить приз?",
+    "anchor": "has not randomized the position of the prize",
+    "title": "Monty Hall problem",
+    "lang": "en",
+    "chunk_id": "en:Monty Hall problem:57"
+  },
+  {
+    "question": "Почему при стратегии смены двери вероятность выиграть автомобиль равна 2/3, а не 1/2, ведь после открытия одной двери остаются только две?",
+    "anchor": "changes nothing about the initial probability",
+    "title": "Monty Hall problem",
+    "lang": "en",
+    "chunk_id": "en:Monty Hall problem:9"
+  },
+  {
+    "question": "Почему после того, как надзиратель назвал имя B, шанс узника A на помилование не вырос до половины?",
+    "anchor": "A's chance of being pardoned is unchanged at ⁠1/3⁠",
+    "title": "Three prisoners problem",
+    "lang": "en",
+    "chunk_id": "en:Three prisoners problem:1"
+  },
+  {
+    "question": "Какую долю всех случаев составляет ситуация, когда заключённый A помилован, а надзиратель называет B как подлежащего казни?",
+    "anchor": "1/3⁠ × ⁠1/2⁠ = ⁠1/6⁠ of the cases",
+    "title": "Three prisoners problem",
+    "lang": "en",
+    "chunk_id": "en:Three prisoners problem:5"
+  },
+  {
+    "question": "Почему после открытия ведущим одной двери две оставшиеся двери нельзя считать равновероятными?",
+    "anchor": "затем имели разные вероятности быть исключёнными",
+    "title": "Парадокс Монти Холла",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс Монти Холла:3"
+  },
+  {
+    "question": "Почему после ответа стражника «казнят B» вероятность помилования C равна 2⁄3, а не ½?",
+    "anchor": "оставляет 1-й и 4-й варианты — то есть 2⁄3 вероятности",
+    "title": "Парадокс Монти Холла",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс Монти Холла:11"
+  },
+  {
+    "question": "Почему после того, как охранник назвал имя B, вероятность помилования заключённого C возрастает до 2/3, а шансы самого A остаются прежними?",
+    "anchor": "шансы С на помилование теперь 2/3",
+    "title": "Задача трёх узников",
+    "lang": "ru",
+    "chunk_id": "ru:Задача трёх узников:2"
+  },
+  {
+    "question": "Почему после ответа стражника вероятность помилования A не растёт, хотя он назвал имя одного из двух других заключённых?",
+    "anchor": "Это доводит вероятность случаев 4 и 5 до 1/3",
+    "title": "Задача трёх узников",
+    "lang": "ru",
+    "chunk_id": "ru:Задача трёх узников:6"
+  },
+  {
+    "question": "Почему при одинаковой точности теста доля ложноположительных результатов среди всех положительных сильно зависит от распространённости болезни в популяции?",
+    "anchor": "of which 40% are infected",
+    "title": "Base rate fallacy",
+    "lang": "en",
+    "chunk_id": "en:Base rate fallacy:4"
+  },
+  {
+    "question": "Насколько вероятнее были два последовательных несчастных случая по сравнению с двумя убийствами, по оценке Рэя Хилла?",
+    "anchor": "between 4.5 and 9 times more likely than are successive murders",
+    "title": "Base rate fallacy",
+    "lang": "en",
+    "chunk_id": "en:Base rate fallacy:26"
+  },
+  {
+    "question": "Как в генетике оценивают вероятность того, что человек является носителем рецессивного гена или заболеет наследственным заболеванием?",
+    "anchor": "Bayes' rule can be used to estimate the probability",
+    "title": "Bayes' theorem",
+    "lang": "en",
+    "chunk_id": "en:Bayes' theorem:28"
+  },
+  {
+    "question": "Как в байесовском обновлении связаны апостериорные шансы, априорные шансы и отношение правдоподобия?",
+    "anchor": "the posterior odds are the prior odds times the likelihood",
+    "title": "Bayes' theorem",
+    "lang": "en",
+    "chunk_id": "en:Bayes' theorem:22"
+  },
+  {
+    "question": "Как называется логическая ошибка, при которой вероятность события A при условии B считают примерно равной вероятности B при условии A?",
+    "anchor": "a conditional probability is equated with its inverse",
+    "title": "Confusion of the inverse",
+    "lang": "en",
+    "chunk_id": "en:Confusion of the inverse:0"
+  },
+  {
+    "question": "Если система подала сигнал тревоги на случайного жителя, какова вероятность, что это действительно террорист?",
+    "anchor": "Какие шансы, что он — террорист?",
+    "title": "Ошибка базового процента",
+    "lang": "ru",
+    "chunk_id": "ru:Ошибка базового процента:3"
+  },
+  {
+    "question": "Почему при положительном результате алкотестера вероятность того, что водитель на самом деле пьян, оказывается низкой?",
+    "anchor": "человек имеет склонность игнорировать первое и фокусироваться на втором",
+    "title": "Ошибка базового процента",
+    "lang": "ru",
+    "chunk_id": "ru:Ошибка базового процента:0"
+  },
+  {
+    "question": "Как с помощью формулы Байеса пересчитать вероятность события с учётом уже имевшихся сведений и результатов новых наблюдений?",
+    "anchor": "можно уточнить вероятность какого-либо события, взяв в расчёт",
+    "title": "Теорема Байеса",
+    "lang": "ru",
+    "chunk_id": "ru:Теорема Байеса:0"
+  },
+  {
+    "question": "Кто впервые опубликовал современную формулировку теоремы Байеса?",
+    "anchor": "впервые опубликовавшим современную формулировку теоремы в своей книге 1812 года",
+    "title": "Теорема Байеса",
+    "lang": "ru",
+    "chunk_id": "ru:Теорема Байеса:3"
+  },
+  {
+    "question": "Почему эффект конъюнкции сохраняется, даже когда «составной» и «базовый» варианты оценивают разные группы испытуемых по отдельности?",
+    "anchor": "different groups of subjects still rank-order Linda",
+    "title": "Conjunction fallacy",
+    "lang": "en",
+    "chunk_id": "en:Conjunction fallacy:3"
+  },
+  {
+    "question": "Почему при подаче задачи в виде частот вместо процентов доля ошибочных ответов резко падает?",
+    "anchor": "Participants were forced to use a mathematical approach",
+    "title": "Conjunction fallacy",
+    "lang": "en",
+    "chunk_id": "en:Conjunction fallacy:14"
+  },
+  {
+    "question": "Почему люди могут ошибочно считать более вероятным, что человек — физик, а не естественник, хотя второе включает первое?",
+    "anchor": "seems to be very representative of a physics major",
+    "title": "Representativeness heuristic",
+    "lang": "en",
+    "chunk_id": "en:Representativeness heuristic:27"
+  },
+  {
+    "question": "На чём основано суждение о вероятности события при использовании эвристики репрезентативности?",
+    "anchor": "comparing an event to a prototype or stereotype",
+    "title": "Representativeness heuristic",
+    "lang": "en",
+    "chunk_id": "en:Representativeness heuristic:0"
+  },
+  {
+    "question": "Почему при оценке двух описаний Линды люди чаще выбирают более сложный вариант, хотя он не может быть вероятнее простого?",
+    "anchor": "вероятность совместных событий всегда не больше вероятностей событий в отдельности",
+    "title": "Ошибка конъюнкции",
+    "lang": "ru",
+    "chunk_id": "ru:Ошибка конъюнкции:0"
+  },
+  {
+    "question": "Почему механизм «pity-timer» в лутбоксах подпитывает ошибку игрока?",
+    "anchor": "it reinforces the idea that a player will eventually obtain a high-rarity item",
+    "title": "Gambler's fallacy",
+    "lang": "en",
+    "chunk_id": "en:Gambler's fallacy:44"
+  },
+  {
+    "question": "Как меняется склонность к ошибке игрока с возрастом согласно исследованию Фишбейна и Шнарха?",
+    "anchor": "susceptibility to the gambler's fallacy may decrease with age",
+    "title": "Gambler's fallacy",
+    "lang": "en",
+    "chunk_id": "en:Gambler's fallacy:34"
+  },
+  {
+    "question": "Почему люди склонны видеть закономерность в неизбежных сериях и сгущениях, возникающих в небольших случайных выборках?",
+    "anchor": "underpredict the amount of variability likely to appear",
+    "title": "Clustering illusion",
+    "lang": "en",
+    "chunk_id": "en:Clustering illusion:0"
+  },
+  {
+    "question": "Какая ошибка мышления связана с кластеризацией и приводит к вере в то, что человек может управлять случайными событиями?",
+    "anchor": "the illusion of control which the clustering illusion could contribute to",
+    "title": "Clustering illusion",
+    "lang": "en",
+    "chunk_id": "en:Clustering illusion:1"
+  },
+  {
+    "question": "Почему в задаче о больницах правильным ответом оказывается меньшая больница, а не большая?",
+    "anchor": "the larger hospital is much more likely to report a sex ratio close to 50%",
+    "title": "Insensitivity to sample size",
+    "lang": "en",
+    "chunk_id": "en:Insensitivity to sample size:2"
+  },
+  {
+    "question": "Почему люди склонны недооценивать разброс результатов в маленьких выборках?",
+    "anchor": "variability is more likely in smaller samples",
+    "title": "Insensitivity to sample size",
+    "lang": "en",
+    "chunk_id": "en:Insensitivity to sample size:0"
+  },
+  {
+    "question": "Каким образом в простом приближении получают вероятность отсутствия совпадений дней рождения у n человек?",
+    "anchor": "assuming that these events are independent",
+    "title": "Birthday problem",
+    "lang": "en",
+    "chunk_id": "en:Birthday problem:12"
+  },
+  {
+    "question": "Какая характеристика распределения числа людей до первого совпадения дней рождения рассматривается в альтернативной постановке задачи?",
+    "anchor": "this average is determining the mean of the distribution",
+    "title": "Birthday problem",
+    "lang": "en",
+    "chunk_id": "en:Birthday problem:30"
+  },
+  {
+    "question": "Почему для превышения вероятности 50 % нужно больше людей, чем половина дней в году?",
+    "anchor": "у остальных членов группы дни рождения могут совпадать между собой",
+    "title": "Парадокс дней рождения",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс дней рождения:12"
+  },
+  {
+    "question": "Почему при случайном выборе семьи, где есть хотя бы один мальчик, вероятность того, что оба ребёнка — мальчики, равна 1/3, а не 1/2?",
+    "anchor": "at least one of whom is a boy, a family is chosen at random",
+    "title": "Boy or girl paradox",
+    "lang": "en",
+    "chunk_id": "en:Boy or girl paradox:5"
+  },
+  {
+    "question": "Почему при встрече мистера Смита с одним ребёнком-мальчиком нельзя просто отбросить все варианты, где у него есть дочь, и считать, что мальчик есть у него обязательно?",
+    "anchor": "that child could have been a girl",
+    "title": "Boy or girl paradox",
+    "lang": "en",
+    "chunk_id": "en:Boy or girl paradox:7"
+  },
+  {
+    "question": "Почему после наблюдения золотой монеты вероятность того, что она из ящика с двумя золотыми, равна 2/3, а не 1/2?",
+    "anchor": "The three remaining possibilities are equally likely",
+    "title": "Bertrand's box paradox",
+    "lang": "en",
+    "chunk_id": "en:Bertrand's box paradox:2"
+  },
+  {
+    "question": "Насколько сильно менялась доля студентов MBA, отвечавших 1/2, при разных формулировках одной и той же задачи?",
+    "anchor": "колеблется от 85 % до 39 %",
+    "title": "Парадокс мальчика и девочки",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс мальчика и девочки:2"
+  },
+  {
+    "question": "Почему при выборе семьи с хотя бы одним мальчиком вероятность того, что оба ребёнка мальчики, равна 1/3, а не 1/2?",
+    "anchor": "остаются три из четырёх равновероятных исхода",
+    "title": "Парадокс мальчика и девочки",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс мальчика и девочки:8"
+  },
+  {
+    "question": "Почему при вытянутой золотой монете шанс, что в коробке лежит вторая золотая, равен двум третям, а не половине?",
+    "anchor": "в ней 2 золотых монеты, а всего золотых — три",
+    "title": "Парадокс коробок Бертрана",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс коробок Бертрана:0"
+  },
+  {
+    "question": "Почему при объединении данных по обеим группам камней лечение A может казаться хуже лечения B, хотя в каждой подгруппе оно лучше?",
+    "anchor": "the success rate is more strongly influenced by the severity of the case than by the choice of treatment",
+    "title": "Simpson's paradox",
+    "lang": "en",
+    "chunk_id": "en:Simpson's paradox:6"
+  },
+  {
+    "question": "Почему по одним и тем же данным нельзя однозначно выбрать правильную интерпретацию причинного эффекта?",
+    "anchor": "two different graphs, both compatible with the data",
+    "title": "Simpson's paradox",
+    "lang": "en",
+    "chunk_id": "en:Simpson's paradox:14"
+  },
+  {
+    "question": "Почему инструктор считал, что наказание работает лучше похвалы, хотя на самом деле он наблюдал статистическую ловушку?",
+    "anchor": "when they try it again, they do worse",
+    "title": "Regression toward the mean",
+    "lang": "en",
+    "chunk_id": "en:Regression toward the mean:31"
+  },
+  {
+    "question": "Может ли изменение поведения людей между двумя измерениями исказить или даже обратить вспять статистическую тенденцию к регрессии к среднему?",
+    "anchor": "augment, offset or reverse the statistical tendency to regress",
+    "title": "Regression toward the mean",
+    "lang": "en",
+    "chunk_id": "en:Regression toward the mean:22"
+  },
+  {
+    "question": "Как называется статистическое явление, при котором направление связи в отдельных подгруппах совпадает, а после их объединения меняется на обратное?",
+    "anchor": "при объединении этих групп направление зависимости меняется на противоположное",
+    "title": "Парадокс Симпсона",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс Симпсона:0"
+  },
+  {
+    "question": "Как можно устранить перекос при объединении данных, не меняя вероятностей для каждого стола по отдельности?",
+    "anchor": "достаточно умножить количество фишек обоих цветов",
+    "title": "Парадокс Симпсона",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс Симпсона:7"
+  },
+  {
+    "question": "Почему при повторном тестировании тех же учеников разброс их результатов уменьшается и оценки сближаются со средним?",
+    "anchor": "статистика их успеваемости несколько сузится к среднему значению",
+    "title": "Регрессия к среднему",
+    "lang": "ru",
+    "chunk_id": "ru:Регрессия к среднему:6"
+  },
+  {
+    "question": "Почему после очень удачного матча команда часто выступает хуже, если не учитывать её реальное мастерство?",
+    "anchor": "последующие выступления команды будут менее результативными",
+    "title": "Регрессия к среднему",
+    "lang": "ru",
+    "chunk_id": "ru:Регрессия к среднему:8"
+  },
+  {
+    "question": "Что именно, по мнению некоторых исследователей, на самом деле измеряет тест когнитивной рефлексии?",
+    "anchor": "the CRT is actually measuring cognitive abilities",
+    "title": "Cognitive reflection test",
+    "lang": "en",
+    "chunk_id": "en:Cognitive reflection test:0"
+  },
+  {
+    "question": "Какие ответы, подсказываемые быстрым, интуитивным мышлением, обычно оказываются неверными в задачах Фредерика?",
+    "anchor": "typically are: 10 cents, 100 minutes, and 24 days",
+    "title": "Cognitive reflection test",
+    "lang": "en",
+    "chunk_id": "en:Cognitive reflection test:5"
+  },
+  {
+    "question": "Как, по мнению Стивена Слоумана, соотносятся два способа рассуждения — основанный на правилах и ассоциативный: может ли первый полностью отключить второй?",
+    "anchor": "it could only suppress it",
+    "title": "Dual process theory",
+    "lang": "en",
+    "chunk_id": "en:Dual process theory:5"
+  },
+  {
+    "question": "Какие области мозга активируются после тренинга, снижающего склонность к совпадению?",
+    "anchor": "ventro-medial prefrontal cortex and anterior cingulate",
+    "title": "Dual process theory",
+    "lang": "en",
+    "chunk_id": "en:Dual process theory:49"
+  },
+  {
+    "question": "Почему люди, опираясь на эвристику доступности, дают ненадёжные оценки вероятностей?",
+    "anchor": "giving more weight to current or easily recalled information",
+    "title": "Availability heuristic",
+    "lang": "en",
+    "chunk_id": "en:Availability heuristic:32"
+  },
+  {
+    "question": "Почему люди склонны требовать более сурового наказания за преступления, и как это можно исправить?",
+    "anchor": "recalled more easily from long-term memory stories that contain severe harm",
+    "title": "Availability heuristic",
+    "lang": "en",
+    "chunk_id": "en:Availability heuristic:41"
+  },
+  {
+    "question": "Как настроение человека влияет на его склонность поддаваться эффекту якоря?",
+    "anchor": "sad people are more likely to use anchoring",
+    "title": "Anchoring effect",
+    "lang": "en",
+    "chunk_id": "en:Anchoring effect:53"
+  },
+  {
+    "question": "Какие способы помогают снизить влияние якорей внутри группы?",
+    "anchor": "the use of process accountability and motivation through competition",
+    "title": "Anchoring effect",
+    "lang": "en",
+    "chunk_id": "en:Anchoring effect:17"
+  },
+  {
+    "question": "Какой единый когнитивный процесс, по мнению Канемана и Фредерика, лежит в основе многих эвристик?",
+    "anchor": "автоматическая замена трудного целевого признака более доступным",
+    "title": "Подмена признака",
+    "lang": "ru",
+    "chunk_id": "ru:Подмена признака:1"
+  },
+  {
+    "question": "Как называется бессознательная замена трудного для оценки показателя более простым, который легко вычислить?",
+    "anchor": "бессознательно подменяет его более простым и легко вычислимым эвристическим признаком",
+    "title": "Подмена признака",
+    "lang": "ru",
+    "chunk_id": "ru:Подмена признака:0"
+  },
+  {
+    "question": "Почему опора на лёгкость припоминания примеров приводит к систематическим ошибкам в оценке вероятностей?",
+    "anchor": "на лёгкость воспоминания влияют и другие факторы",
+    "title": "Эвристика доступности",
+    "lang": "ru",
+    "chunk_id": "ru:Эвристика доступности:3"
+  },
+  {
+    "question": "Почему люди переоценивают численность той группы, представители которой им лучше знакомы, и как это подтвердили в эксперименте со списком имён?",
+    "anchor": "испытуемые ошибочно определили, что в списке было больше",
+    "title": "Эвристика доступности",
+    "lang": "ru",
+    "chunk_id": "ru:Эвристика доступности:4"
+  },
+  {
+    "question": "Пропадает ли эффект якоря, если человек заранее знает о его существовании?",
+    "anchor": "испытуемые знают об эффекте якоря",
+    "title": "Эффект привязки",
+    "lang": "ru",
+    "chunk_id": "ru:Эффект привязки:0"
+  },
+  {
+    "question": "Как в эксперименте Тверски и Канемана случайное число с рулетки повлияло на оценки доли африканских стран в ООН?",
+    "anchor": "оценки в первой группе были значительно выше, чем во второй",
+    "title": "Эффект привязки",
+    "lang": "ru",
+    "chunk_id": "ru:Эффект привязки:1"
+  },
+  {
+    "question": "В каких ситуациях когнитивные искажения могут быть полезны, а не вредны?",
+    "anchor": "когда скорость принятия решения важнее его точности",
+    "title": "Когнитивное искажение",
+    "lang": "ru",
+    "chunk_id": "ru:Когнитивное искажение:1"
+  },
+  {
+    "question": "Как в англоязычной литературе называют группу искажений, обусловленных особенностями работы мозга при восприятии, запоминании и выводах?",
+    "anchor": "обозначаются термином «hot cognition»",
+    "title": "Когнитивное искажение",
+    "lang": "ru",
+    "chunk_id": "ru:Когнитивное искажение:8"
+  },
+  {
+    "question": "Почему сравнительный оптимизм может объясняться не искажением восприятия, а частотой самих событий?",
+    "anchor": "Event frequency accounts for a proportion of prior findings",
+    "title": "Overconfidence effect",
+    "lang": "en",
+    "chunk_id": "en:Overconfidence effect:9"
+  },
+  {
+    "question": "В каких случаях люди склонны переоценивать себя относительно других, а когда эта тенденция меняется на противоположную?",
+    "anchor": "For difficult tasks, the effect reverses itself",
+    "title": "Overconfidence effect",
+    "lang": "en",
+    "chunk_id": "en:Overconfidence effect:8"
+  },
+  {
+    "question": "Какой приём помогает людям точнее оценивать вероятности, если они представляют, что делают денежные ставки?",
+    "anchor": "subjects are taught how to convert calibration questions into a type of betting game",
+    "title": "Calibrated probability assessment",
+    "lang": "en",
+    "chunk_id": "en:Calibrated probability assessment:2"
+  },
+  {
+    "question": "Если человек, прошедший калибровку, говорит, что уверен в каждом из 100 прогнозов на 80%, сколько из них в среднем окажутся верными?",
+    "anchor": "they will get about 80% of them correct",
+    "title": "Calibrated probability assessment",
+    "lang": "en",
+    "chunk_id": "en:Calibrated probability assessment:0"
+  },
+  {
+    "question": "Что означает N в формуле разложения индекса Брайера?",
+    "anchor": "With N being the total number of forecasts issued",
+    "title": "Brier score",
+    "lang": "en",
+    "chunk_id": "en:Brier score:6"
+  },
+  {
+    "question": "Почему оценка Брайера плохо работает для очень редких событий?",
+    "anchor": "does not sufficiently discriminate between small changes in forecast",
+    "title": "Brier score",
+    "lang": "en",
+    "chunk_id": "en:Brier score:16"
+  },
+  {
+    "question": "Какие три группы параметров лежат в основе подходов к изучению речевого поведения?",
+    "anchor": "формально-динамических характеристик речи, структурно-грамматических особенностей языка и содержательных компонентов текста",
+    "title": "Эффект сверхуверенности",
+    "lang": "ru",
+    "chunk_id": "ru:Эффект сверхуверенности:4"
+  },
+  {
+    "question": "Каким свойством обладают невербальные характеристики речи по отношению к вербальному смыслу?",
+    "anchor": "обладают свойством функциональной независимости от вербальной",
+    "title": "Эффект сверхуверенности",
+    "lang": "ru",
+    "chunk_id": "ru:Эффект сверхуверенности:7"
+  },
+  {
+    "question": "Почему в определении независимости событий предпочитают формулу с вероятностью пересечения, а не запись через условную вероятность?",
+    "anchor": "the conditional probabilities may be undefined",
+    "title": "Conditional probability",
+    "lang": "en",
+    "chunk_id": "en:Conditional probability:25"
+  },
+  {
+    "question": "Как формально записывается условие независимости двух событий через условную вероятность?",
+    "anchor": "P(B∣A)=P(B), which is equivalent to",
+    "title": "Conditional probability",
+    "lang": "en",
+    "chunk_id": "en:Conditional probability:24"
+  },
+  {
+    "question": "Как формально записывается условие независимости двух событий через их совместную вероятность?",
+    "anchor": "their joint probability equals the product of their probabilities",
+    "title": "Independence (probability theory)",
+    "lang": "en",
+    "chunk_id": "en:Independence (probability theory):2"
+  },
+  {
+    "question": "Почему при увеличении объёма выборки оценка математического ожидания через среднее арифметическое становится надёжнее?",
+    "anchor": "as the size of the sample gets larger, the variance of this estimate gets smaller",
+    "title": "Expected value",
+    "lang": "en",
+    "chunk_id": "en:Expected value:46"
+  },
+  {
+    "question": "К какому значению почти наверное сходится среднее арифметическое результатов при увеличении числа бросков кубика?",
+    "anchor": "the average will almost surely converge to the expected value",
+    "title": "Expected value",
+    "lang": "en",
+    "chunk_id": "en:Expected value:11"
+  },
+  {
+    "question": "Почему сходимость выборочного среднего по распределению к постоянной величине означает и сходимость по вероятности к ней?",
+    "anchor": "μ is a constant, which implies that convergence in distribution",
+    "title": "Law of large numbers",
+    "lang": "en",
+    "chunk_id": "en:Law of large numbers:27"
+  },
+  {
+    "question": "Почему при увеличении числа выборок приближение интеграла методом Монте-Карло становится точнее?",
+    "anchor": "the numerical value gets ever closer to 0.4180233",
+    "title": "Law of large numbers",
+    "lang": "en",
+    "chunk_id": "en:Law of large numbers:35"
+  },
+  {
+    "question": "Какова вероятность, что событие с шансом 1% произойдёт хотя бы раз за 1000 независимых испытаний?",
+    "anchor": "that probability rises to 1−0.991000≈99.997%",
+    "title": "Law of truly large numbers",
+    "lang": "en",
+    "chunk_id": "en:Law of truly large numbers:1"
+  },
+  {
+    "question": "Как называется искажение памяти, из-за которого игроки переоценивают свои реальные выигрыши и мысленно дистанцируются от последствий азартной игры?",
+    "anchor": "allowing gamblers to mentally distance themselves from the consequences",
+    "title": "Law of truly large numbers",
+    "lang": "en",
+    "chunk_id": "en:Law of truly large numbers:5"
+  },
+  {
+    "question": "Почему совпадение, которое кажется невероятным, всё же может объясняться случайностью?",
+    "anchor": "in vast numbers of opportunities such coincidences do happen by chance",
+    "title": "Coincidence",
+    "lang": "en",
+    "chunk_id": "en:Coincidence:3"
+  },
+  {
+    "question": "Почему большое число совпадений может создать иллюзию наличия причины, хотя наблюдения сами по себе не доказывают причинность?",
+    "anchor": "the larger the set of coincidences, the more certainty increases",
+    "title": "Coincidence",
+    "lang": "en",
+    "chunk_id": "en:Coincidence:7"
+  },
+  {
+    "question": "Может ли набор событий, где любые два независимы, всё же не быть независимым в совокупности?",
+    "anchor": "Обратное, в общем случае, неверно",
+    "title": "Независимость (теория вероятностей)",
+    "lang": "ru",
+    "chunk_id": "ru:Независимость (теория вероятностей):1"
+  },
+  {
+    "question": "Как формально записать независимость двух событий через условную вероятность, если вероятность одного из них не равна нулю?",
+    "anchor": "условная вероятность события A при условии B равна безусловной вероятности",
+    "title": "Независимость (теория вероятностей)",
+    "lang": "ru",
+    "chunk_id": "ru:Независимость (теория вероятностей):0"
+  },
+  {
+    "question": "Как называется среднее значение случайной величины, взвешенное по вероятностям её возможных значений?",
+    "anchor": "означающее среднее (взвешенное по вероятностям возможных значений) значение случайной величины",
+    "title": "Математическое ожидание",
+    "lang": "ru",
+    "chunk_id": "ru:Математическое ожидание:0"
+  },
+  {
+    "question": "Может ли выполняться обычный закон больших чисел, когда усиленный для той же последовательности не выполняется?",
+    "anchor": "Обратное может быть неверно",
+    "title": "Закон больших чисел",
+    "lang": "ru",
+    "chunk_id": "ru:Закон больших чисел:9"
+  },
+  {
+    "question": "Почему байесовский вывод может привести к ошибочному отклонению гипотезы, даже если свидетельства собраны?",
+    "anchor": "благодаря исходному верованию, которого каждый придерживается",
+    "title": "Байесовский вывод",
+    "lang": "ru",
+    "chunk_id": "ru:Байесовский вывод:1"
+  },
+  {
+    "question": "Что нужно иметь для гипотезы перед тем, как учесть новое свидетельство, чтобы затем пересчитать её вероятность?",
+    "anchor": "числовую оценку степени веры в гипотезу до получения свидетельства",
+    "title": "Байесовский вывод",
+    "lang": "ru",
+    "chunk_id": "ru:Байесовский вывод:2"
+  },
+  {
+    "question": "Какие характеристики теста не зависят от распространённости болезни в популяции, а какие от неё зависят?",
+    "anchor": "are values influenced by the prevalence of disease",
+    "title": "Sensitivity and specificity",
+    "lang": "en",
+    "chunk_id": "en:Sensitivity and specificity:14"
+  },
+  {
+    "question": "Что происходит с чувствительностью и специфичностью при смещении порога отсечения теста?",
+    "anchor": "results in a trade-off between the level of sensitivity and specificity",
+    "title": "Sensitivity and specificity",
+    "lang": "en",
+    "chunk_id": "en:Sensitivity and specificity:10"
+  },
+  {
+    "question": "Как называется ошибка теста, при которой он показывает наличие состояния, которого на самом деле нет?",
+    "anchor": "incorrectly indicates the presence of a condition",
+    "title": "False positives and false negatives",
+    "lang": "en",
+    "chunk_id": "en:False positives and false negatives:0"
+  },
+  {
+    "question": "Как в статистической проверке гипотез называются ошибки, аналогичные ложноположительному и ложноотрицательному результатам?",
+    "anchor": "known as type I and type II errors",
+    "title": "False positives and false negatives",
+    "lang": "en",
+    "chunk_id": "en:False positives and false negatives:1"
+  },
+  {
+    "question": "Как называется доля больных, которых тест верно распознал как больных?",
+    "anchor": "чувствительность диагностического теста показывает вероятность того, что больной субъект",
+    "title": "Чувствительность и специфичность",
+    "lang": "ru",
+    "chunk_id": "ru:Чувствительность и специфичность:1"
+  },
+  {
+    "question": "Почему при настройке системы обнаружения нельзя одновременно свести к нулю оба типа ошибок?",
+    "anchor": "с ростом вероятности ошибки первого рода обычно уменьшается вероятность ошибки второго рода",
+    "title": "Ошибки первого и второго рода",
+    "lang": "ru",
+    "chunk_id": "ru:Ошибки первого и второго рода:7"
+  },
+  {
+    "question": "Почему при очень редком искомом состоянии большинство срабатываний теста окажутся ложными, даже если сам тест ошибается крайне редко?",
+    "anchor": "большинство положительных результатов этого теста будут ложными",
+    "title": "Ошибки первого и второго рода",
+    "lang": "ru",
+    "chunk_id": "ru:Ошибки первого и второго рода:25"
+  },
+  {
+    "question": "Какова вероятность того, что ты единственный ребёнок моряка и монета выпала орлом, если известно только, что ты его ребёнок?",
+    "anchor": "What is the probability that you are his only child",
+    "title": "Sleeping Beauty problem",
+    "lang": "en",
+    "chunk_id": "en:Sleeping Beauty problem:19"
+  },
+  {
+    "question": "Почему, по мнению Льюиса, убеждение Спящей красавицы в том, что монета выпала орлом, должно оставаться равным 1/2?",
+    "anchor": "she gains no new relevant evidence when she wakes up",
+    "title": "Sleeping Beauty problem",
+    "lang": "en",
+    "chunk_id": "en:Sleeping Beauty problem:6"
+  },
+  {
+    "question": "Почему в реальной ситуации парадокс с двумя конвертами не возникает из-за невозможности бесконечного математического ожидания?",
+    "anchor": "the postulated probability distribution for X (with E(X)=∞) cannot arise in a real-life situation",
+    "title": "Two envelopes problem",
+    "lang": "en",
+    "chunk_id": "en:Two envelopes problem:44"
+  },
+  {
+    "question": "В каком случае участнице, знающей, что у неё конверт A, но не знающей результат подбрасывания монеты и величину a, стоит менять конверты?",
+    "anchor": "then the switching argument is correct and she is recommended to switch envelopes",
+    "title": "Two envelopes problem",
+    "lang": "en",
+    "chunk_id": "en:Two envelopes problem:14"
+  },
+  {
+    "question": "При каком соотношении коэффициентов степенной функции полезности и функции взвешивания вероятностей кумулятивная теория перспектив позволяет избежать парадокса Санкт-Петербурга?",
+    "anchor": "power coefficient of the utility function is lower than the power coefficient",
+    "title": "St. Petersburg paradox",
+    "lang": "en",
+    "chunk_id": "en:St. Petersburg paradox:13"
+  },
+  {
+    "question": "Почему при логарифмической функции полезности, зависящей от всего капитала игрока, ожидаемая прибавка полезности от лотереи сходится к конечной величине?",
+    "anchor": "the concept of diminishing marginal utility of money is built into it",
+    "title": "St. Petersburg paradox",
+    "lang": "en",
+    "chunk_id": "en:St. Petersburg paradox:7"
+  },
+  {
+    "question": "Почему при выборе случайной середины хорды внутри круга вероятность получить хорду длиннее стороны вписанного треугольника равна одной четверти?",
+    "anchor": "The area of the smaller circle is one fourth the area of the larger circle",
+    "title": "Bertrand paradox (probability)",
+    "lang": "en",
+    "chunk_id": "en:Bertrand paradox (probability):3"
+  },
+  {
+    "question": "Какой из методов выбора случайной хорды одновременно обладает и масштабной, и трансляционной инвариантностью?",
+    "anchor": "Method 2 is the only one that is both scale invariant and translation invariant",
+    "title": "Bertrand paradox (probability)",
+    "lang": "en",
+    "chunk_id": "en:Bertrand paradox (probability):8"
+  },
+  {
+    "question": "Почему при обусловливании на объединение событий A∪B влияние B на A может полностью исчезнуть, если A редкое, но сильно связано с B?",
+    "anchor": "the effect is particularly large when A is rare",
+    "title": "Berkson's paradox",
+    "lang": "en",
+    "chunk_id": "en:Berkson's paradox:8"
+  },
+  {
+    "question": "Почему в пуле знакомств, куда попадают только привлекательные или приятные мужчины, грубые партнёры оказываются красивее, а некрасивые — добрее?",
+    "anchor": "the rude men that Alice dates must have been even more handsome",
+    "title": "Berkson's paradox",
+    "lang": "en",
+    "chunk_id": "en:Berkson's paradox:4"
+  },
+  {
+    "question": "Какие известные бесконечные целочисленные последовательности точно подчиняются закону Бенфорда в асимптотическом пределе?",
+    "anchor": "the Fibonacci numbers, the factorials, the powers of 2",
+    "title": "Benford's law",
+    "lang": "en",
+    "chunk_id": "en:Benford's law:35"
+  },
+  {
+    "question": "Можно ли подобрать такой масштабирующий множитель, чтобы распределение первой значащей цифры нормированной случайной величины сколь угодно близко приблизилось к закону Бенфорда?",
+    "anchor": "some value A can be found so that the probability",
+    "title": "Benford's law",
+    "lang": "en",
+    "chunk_id": "en:Benford's law:33"
+  },
+  {
+    "question": "Почему при пробуждении вероятности оказаться в положении Р1 и Р2 считаются равными?",
+    "anchor": "субъективно выглядит точно так же, как и пребывание в Р2",
+    "title": "Парадокс Спящей красавицы",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс Спящей красавицы:2"
+  },
+  {
+    "question": "Почему при подсчёте вероятности орла после пробуждения получается 1/3, а не 1/2?",
+    "anchor": "будят в среднем 500 раз с орлом и 1000 раз с решкой",
+    "title": "Парадокс Спящей красавицы",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс Спящей красавицы:1"
+  },
+  {
+    "question": "Почему рассуждение каждого игрока о равных шансах на выигрыш и проигрыш оказывается ошибочным?",
+    "anchor": "каждый игрок ошибочно полагает, будто его шансы на выигрыш и проигрыш равны",
+    "title": "Задача о двух конвертах",
+    "lang": "ru",
+    "chunk_id": "ru:Задача о двух конвертах:2"
+  },
+  {
+    "question": "Почему предположение о равной вероятности сумм X/2 и 2X в задаче о двух конвертах не может выполняться?",
+    "anchor": "её интеграл равен бесконечности, что невозможно",
+    "title": "Задача о двух конвертах",
+    "lang": "ru",
+    "chunk_id": "ru:Задача о двух конвертах:8"
+  },
+  {
+    "question": "Почему некоторые теоретики считали неприемлемым выбирать вариант только по величине математического ожидания?",
+    "anchor": "относительный риск альтернативного события может быть достаточно высоким",
+    "title": "Санкт-петербургский парадокс",
+    "lang": "ru",
+    "chunk_id": "ru:Санкт-петербургский парадокс:7"
+  },
+  {
+    "question": "Почему при наблюдении сотрясения дома не стоит объяснять его одновременным наступлением обеих причин?",
+    "anchor": "вероятность их одновременного возникновения равна e−10⋅e−10=e−20",
+    "title": "Парадокс Берксона",
+    "lang": "ru",
+    "chunk_id": "ru:Парадокс Берксона:5"
+  },
+  {
+    "question": "Почему закон Бенфорда не меняется при смене единиц измерения, например при переводе тонн в фунты?",
+    "anchor": "распределение зависит только от системы счисления, но не от единицы измерения",
+    "title": "Закон Бенфорда",
+    "lang": "ru",
+    "chunk_id": "ru:Закон Бенфорда:2"
+  },
+  {
+    "question": "Почему закон Бенфорда не работает для однородных данных, но проявляется при смешивании разных распределений?",
+    "anchor": "если «перемешать» числа из множества подобных распределений",
+    "title": "Закон Бенфорда",
+    "lang": "ru",
+    "chunk_id": "ru:Закон Бенфорда:12"
+  },
+  {
+    "question": "Какие данные подтвердили существование «горячей руки» на индивидуальном уровне у баскетболистов?",
+    "anchor": "more than 300,000 NBA free throws",
+    "title": "Hot hand",
+    "lang": "en",
+    "chunk_id": "en:Hot hand:21"
+  },
+  {
+    "question": "Какие граничные условия используются при решении рекуррентного соотношения для вероятности разорения игрока?",
+    "anchor": "q0=1 (i.e. the probability of gambler's ruin",
+    "title": "Gambler's ruin",
+    "lang": "en",
+    "chunk_id": "en:Gambler's ruin:13"
+  },
+  {
+    "question": "Почему игрок с конечным капиталом в честной игре против противника с бесконечным капиталом в итоге обязательно разорится?",
+    "anchor": "will eventually and inevitably go broke against an opponent with infinite wealth",
+    "title": "Gambler's ruin",
+    "lang": "en",
+    "chunk_id": "en:Gambler's ruin:1"
+  },
+  {
+    "question": "Какова вероятность проиграть шесть вращений рулетки подряд при ставках на красное/чёрное или чёт/нечет?",
+    "anchor": "the likelihood of losing 6 roulette spins in a row",
+    "title": "Martingale (betting system)",
+    "lang": "en",
+    "chunk_id": "en:Martingale (betting system):8"
+  },
+  {
+    "question": "Как в анти-мартингейле меняется размер ставки после выигрыша и после проигрыша?",
+    "anchor": "instead increases bets after wins, while reducing them after a loss",
+    "title": "Martingale (betting system)",
+    "lang": "en",
+    "chunk_id": "en:Martingale (betting system):11"
+  },
+  {
+    "question": "Почему люди могут верить, что способны силой мысли влиять на внешние события, даже когда на самом деле ничего не меняют?",
+    "anchor": "an illusion of control over external events",
+    "title": "Illusion of control",
+    "lang": "en",
+    "chunk_id": "en:Illusion of control:27"
+  },
+  {
+    "question": "Почему иллюзия контроля может быть полезной, а не только вредной?",
+    "anchor": "are adaptive as they motivate people to persist at tasks",
+    "title": "Illusion of control",
+    "lang": "en",
+    "chunk_id": "en:Illusion of control:20"
+  },
+  {
+    "question": "Как избежать ошибки, связанной с выдвижением гипотезы уже после просмотра данных?",
+    "anchor": "one can use the first (original) set of information to construct a hypothesis",
+    "title": "Texas sharpshooter fallacy",
+    "lang": "en",
+    "chunk_id": "en:Texas sharpshooter fallacy:7"
+  },
+  {
+    "question": "Почему удивление меткостью стрелка, попавшего в мишень на двери, может быть необоснованным?",
+    "anchor": "the target was afterwards chalked round the spot where the bullet struck",
+    "title": "Texas sharpshooter fallacy",
+    "lang": "en",
+    "chunk_id": "en:Texas sharpshooter fallacy:2"
+  },
+  {
+    "question": "Почему нельзя объяснить отступление немецких войск регрессией к среднему?",
+    "anchor": "political power and occupation of territories is not primarily determined by random events",
+    "title": "Regression fallacy",
+    "lang": "en",
+    "chunk_id": "en:Regression fallacy:5"
+  },
+  {
+    "question": "Почему люди ошибочно считают, что их вмешательство вызвало улучшение, хотя на самом деле показатели просто вернулись к обычному уровню?",
+    "anchor": "they believe that their action was the cause of the change",
+    "title": "Regression fallacy",
+    "lang": "en",
+    "chunk_id": "en:Regression fallacy:1"
+  },
+  {
+    "question": "Почему в казино нельзя продолжать удвоение ставок бесконечно долго?",
+    "anchor": "установлен фиксированный размер минимальной и максимальной ставки",
+    "title": "Мартингейл",
+    "lang": "ru",
+    "chunk_id": "ru:Мартингейл:6"
+  },
+  {
+    "question": "Почему стратегия удвоения ставок после проигрыша не даёт игроку реального преимущества, хотя кажется беспроигрышной?",
+    "anchor": "игрок не получает преимущества, он всего лишь перераспределяет свой выигрыш",
+    "title": "Мартингейл",
+    "lang": "ru",
+    "chunk_id": "ru:Мартингейл:1"
+  },
+  {
+    "question": "В каких ситуациях склонность человека верить в собственный контроль над случайными событиями снижается?",
+    "anchor": "в новых ситуациях вероятность проявления иллюзии контроля ниже",
+    "title": "Иллюзия контроля",
+    "lang": "ru",
+    "chunk_id": "ru:Иллюзия контроля:2"
+  },
+  {
+    "question": "Как называется явление, при котором человек занижает свою реальную степень влияния на результат?",
+    "anchor": "эффект, обратный иллюзии контроля",
+    "title": "Иллюзия контроля",
+    "lang": "ru",
+    "chunk_id": "ru:Иллюзия контроля:3"
+  },
+  {
+    "question": "Какой пример часто приводят как известное проявление апофении, связанное с совпадением музыки и фильма?",
+    "anchor": "«Тёмная сторона радуги» — теория, согласно которой",
+    "title": "Апофения",
+    "lang": "ru",
+    "chunk_id": "ru:Апофения:1"
+  },
+  {
+    "question": "Как в статистических терминах называют склонность усматривать закономерности там, где их нет?",
+    "anchor": "апофения классифицируется как ошибка первого рода",
+    "title": "Апофения",
+    "lang": "ru",
+    "chunk_id": "ru:Апофения:0"
+  },
+  {
+    "question": "Почему, по словам Диагора, картины погибших при кораблекрушении отсутствуют, и что это говорит о наивном выводе из числа спасённых?",
+    "anchor": "their pictures are not here who were cast away",
+    "title": "Survivorship bias",
+    "lang": "en",
+    "chunk_id": "en:Survivorship bias:11"
+  },
+  {
+    "question": "В каком сегменте взаимных фондов эффект выжившего выражен сильнее и почему?",
+    "anchor": "survivorship bias is larger in the small-fund sector",
+    "title": "Survivorship bias",
+    "lang": "en",
+    "chunk_id": "en:Survivorship bias:7"
+  },
+  {
+    "question": "Можно ли объяснить искажение памяти при ретроспективной оценке через личностные характеристики участников?",
+    "anchor": "Personality measures cannot account for memory hindsight",
+    "title": "Hindsight bias",
+    "lang": "en",
+    "chunk_id": "en:Hindsight bias:15"
+  },
+  {
+    "question": "Как называется эффект, при котором человеку, уже знающему ответ, кажется, что он узнал бы изображение даже в сильно размытом виде?",
+    "anchor": "an effect referred to as the \"I saw it all along\" phenomenon",
+    "title": "Hindsight bias",
+    "lang": "en",
+    "chunk_id": "en:Hindsight bias:42"
+  },
+  {
+    "question": "Почему человек продолжает недооценивать сроки выполнения своих задач, даже зная, что похожие задачи в прошлом занимали больше времени?",
+    "anchor": "occurs regardless of the individual's knowledge that past tasks",
+    "title": "Planning fallacy",
+    "lang": "en",
+    "chunk_id": "en:Planning fallacy:0"
+  },
+  {
+    "question": "Какие эволюционные причины могут объяснять, почему мозг вообще чувствителен к невозвратным издержкам?",
+    "anchor": "what might the evolutionary drivers be behind why the brain",
+    "title": "Sunk cost",
+    "lang": "en",
+    "chunk_id": "en:Sunk cost:34"
+  },
+  {
+    "question": "Почему регулирующие комиссии отказывали коммунальным компаниям в компенсации затрат на строительство АЭС?",
+    "anchor": "throwing good money after bad",
+    "title": "Sunk cost",
+    "lang": "en",
+    "chunk_id": "en:Sunk cost:11"
+  },
+  {
+    "question": "Почему с возрастом у детей усиливается эффект формулировки (фрейминга) при принятии решений?",
+    "anchor": "qualitative reasoning increases with age",
+    "title": "Framing effect (psychology)",
+    "lang": "en",
+    "chunk_id": "en:Framing effect (psychology):20"
+  },
+  {
+    "question": "Какие две независимые переменные исследователи варьировали в эксперименте с «азиатской болезнью»?",
+    "anchor": "framing of options (positive vs. negative) and certainty of outcomes",
+    "title": "Framing effect (psychology)",
+    "lang": "en",
+    "chunk_id": "en:Framing effect (psychology):7"
+  },
+  {
+    "question": "Какие ограничения возникают из-за того, что точка отсчёта на графике теории перспектив может быть разрывной?",
+    "anchor": "possibly being discontinuous at that point",
+    "title": "Prospect theory",
+    "lang": "en",
+    "chunk_id": "en:Prospect theory:48"
+  },
+  {
+    "question": "Как в теории перспектив описывается склонность людей переоценивать маловероятные события и недооценивать высоковероятные?",
+    "anchor": "people tend to overreact to small probability events",
+    "title": "Prospect theory",
+    "lang": "en",
+    "chunk_id": "en:Prospect theory:9"
+  },
+  {
+    "question": "Почему сообщение, в котором наряду с достоинствами товара упомянуты и его недостатки, может убеждать сильнее одностороннего?",
+    "anchor": "increased attention following the highlighting of small negatives",
+    "title": "Loss aversion",
+    "lang": "en",
+    "chunk_id": "en:Loss aversion:28"
+  },
+  {
+    "question": "Каким механизмом, по мнению исследователей, можно объяснить неприятие потерь?",
+    "anchor": "loss aversion may reflect a Pavlovian conditioned approach-avoidance response",
+    "title": "Loss aversion",
+    "lang": "en",
+    "chunk_id": "en:Loss aversion:48"
+  },
+  {
+    "question": "Почему кошки, выпавшие с большой высоты, чаще выживают, чем упавшие с небольшой?",
+    "anchor": "кошка через некоторое время достигает предельной скорости",
+    "title": "Систематическая ошибка выжившего",
+    "lang": "ru",
+    "chunk_id": "ru:Систематическая ошибка выжившего:3"
+  },
+  {
+    "question": "Почему при анализе повреждений вернувшихся бомбардировщиков бронировать следует именно участки без пробоин?",
+    "anchor": "укреплять надо те места, которые у вернувшихся в массе наиболее «чистые»",
+    "title": "Систематическая ошибка выжившего",
+    "lang": "ru",
+    "chunk_id": "ru:Систематическая ошибка выжившего:1"
+  },
+  {
+    "question": "Как называется искажение, при котором человеку кажется, что он заранее предвидел исход события?",
+    "anchor": "эффект предсказуемости: люди склонны верить в то",
+    "title": "Знание задним числом",
+    "lang": "ru",
+    "chunk_id": "ru:Знание задним числом:8"
+  },
+  {
+    "question": "Чем отличается знание задним числом от ложных автобиографических воспоминаний на этапе восстановления информации?",
+    "anchor": "создаст воспоминания о событиях, которых на самом деле не было",
+    "title": "Знание задним числом",
+    "lang": "ru",
+    "chunk_id": "ru:Знание задним числом:18"
+  },
+  {
+    "question": "Почему люди, зная о своей прошлой чрезмерной самоуверенности, всё равно продолжают верить в реалистичность новых прогнозов?",
+    "anchor": "каждый раз настаивают, что их текущие прогнозы реалистичны",
+    "title": "Ошибка планирования",
+    "lang": "ru",
+    "chunk_id": "ru:Ошибка планирования:3"
+  },
+  {
+    "question": "Почему в сложных проектах задержки и перерасход средств оказываются настолько непропорционально большими?",
+    "anchor": "последствия негативных событий не являются линейными",
+    "title": "Ошибка планирования",
+    "lang": "ru",
+    "chunk_id": "ru:Ошибка планирования:9"
+  },
+  {
+    "question": "Что, по данным Хэла Аркеса, чаще всего перевешивает у потребителей при выборе между дешёвым выгодным вариантом и дорогим невыгодным, который уже частично оплачен?",
+    "anchor": "Величина понесённых в прошлом затрат мотивирует их",
+    "title": "Невозвратные затраты",
+    "lang": "ru",
+    "chunk_id": "ru:Невозвратные затраты:2"
+  },
+  {
+    "question": "Почему невозвратные затраты нельзя считать нерелевантными, если они всё равно не влияют на решение?",
+    "anchor": "незначимы, но от них можно отказаться в будущем",
+    "title": "Невозвратные затраты",
+    "lang": "ru",
+    "chunk_id": "ru:Невозвратные затраты:0"
+  },
+  {
+    "question": "При каких условиях эффект фрейминга ослабевает или исчезает?",
+    "anchor": "когда людям предоставляются заслуживающие доверия рекомендации и дополнительная информация",
+    "title": "Эффект фрейминга",
+    "lang": "ru",
+    "chunk_id": "ru:Эффект фрейминга:5"
+  },
+  {
+    "question": "Как в эксперименте Лофтус и Палмера формулировка вопроса повлияла на оценку скорости машин при одинаковом видео?",
+    "anchor": "изменения в постановке вопроса оказывали влияние на оценку скорости автомобилей",
+    "title": "Эффект фрейминга",
+    "lang": "ru",
+    "chunk_id": "ru:Эффект фрейминга:3"
+  },
+  {
+    "question": "Почему при расчёте ценности варианта без страховки слагаемое, соответствующее благополучному исходу, отбрасывается?",
+    "anchor": "так как v(0)=0 согласно свойствам функции ценности",
+    "title": "Теория перспектив",
+    "lang": "ru",
+    "chunk_id": "ru:Теория перспектив:10"
+  },
+  {
+    "question": "Как теория перспектив объясняет искажение восприятия вероятностей при принятии решений?",
+    "anchor": "переоценивать низкие вероятности возникновения альтернатив и недооценивать высокие вероятности",
+    "title": "Теория перспектив",
+    "lang": "ru",
+    "chunk_id": "ru:Теория перспектив:1"
+  },
+  {
+    "question": "Почему потеря той же суммы денег переживается сильнее, чем радость от её получения?",
+    "anchor": "люди испытывают больше неудовольствия от потери, чем удовольствия",
+    "title": "Неприятие потери",
+    "lang": "ru",
+    "chunk_id": "ru:Неприятие потери:0"
+  }
+]

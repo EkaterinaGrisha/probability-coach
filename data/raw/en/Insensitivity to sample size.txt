@@ -1,0 +1,17 @@
+Insensitivity to sample size is a cognitive bias where people estimate the probability of obtaining a sample statistic without considering the sample size. For example, in one study, subjects assigned the same probability to the likelihood of obtaining a mean height of above six feet [183 cm] in samples of 10, 100, and 1,000 men. In fact, variability is more likely in smaller samples, the law of small numbers, but people generally do not understand this.
+In another example, Amos Tversky and Daniel Kahneman asked subjects
+
+A certain town is served by two hospitals. In the larger hospital about 45 babies are born each day, and in the smaller hospital about 15 babies are born each day. As you know, about 50% of all babies are boys. However, the exact percentage varies from day to day. Sometimes it may be higher than 50%, sometimes lower.
+For a period of 1 year, each hospital recorded the days on which more than 60% of the babies born were boys. Which hospital do you think recorded more such days?
+
+The larger hospital
+The smaller hospital
+About the same (that is, within 5% of each other)
+
+56% of subjects chose option 3, and 22% of subjects respectively chose options 1 or 2. However, according to sampling theory the larger hospital is much more likely to report a sex ratio close to 50% on a given day than the smaller hospital which requires that the correct answer to the question is the smaller hospital (see the law of large numbers).
+Even in a survey of psychologists with statistical training, most failed to consider sample size in their analyses.
+Tversky and Kahneman explained these results as examples of the representativeness heuristic: which people intuitively judge samples as having similar properties to their population, without taking other considerations into effect. A related bias is the clustering illusion, in which people under-expect streaks or runs in small samples. Insensitivity to sample size is a subtype of extension neglect.
+To illustrate this point, Howard Wainer and Harris L. Zwerling demonstrated that kidney cancer rates are lowest in counties that are mostly rural, sparsely populated, and located in traditionally Republican states in the Midwest, the South, and the West, but that they are also highest in counties that are mostly rural, sparsely populated, and located in traditionally Republican states in the Midwest, the South, and the West. While various environmental and economic reasons could be advanced for these facts, Wainer and Zwerlig argue that this is an artifact of sample size.  Because of the small sample size, the incidence of a certain kind of cancer in small rural counties is more likely to be further from the mean, in one direction or another, than the incidence of the same kind of cancer in much more heavily populated urban counties.
+
+
+== References ==

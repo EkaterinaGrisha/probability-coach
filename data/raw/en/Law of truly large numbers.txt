@@ -1,0 +1,36 @@
+The law of truly large numbers is the observation in statistics that any highly unlikely result (i.e., an event with constantly low but non-zero probability across samples) is likely to occur, given a large enough number of independent samples. It is not a mathematical law, but a colloquialism. The law has been used to rebut pseudo-scientific claims. 
+The observation is attributed to statisticians Persi Diaconis and Frederick Mosteller. Skeptic and magician Penn Jillette similarly said that "million-to-one odds happen eight times a day" among the roughly 8 million inhabitants of New York City. In another illustrative class of cases—which also involve combinatorics—lottery drawing numbers have been duplicated in close or even immediate succession.
+
+
+== Examples ==
+
+Suppose that an event A has only a 1% probability of occurring in a single trial. Then, within a single trial, there is a 99% probability that A will not occur. However, if 100 independent trials are performed, the probability that A does not occur in a single of them, even once, is 0.99100≈36.6%. Therefore, probability of A occurring in at least one of 100 trials is 1−0.99100≈63.4% . If the number of trials is increased to 1,000, that probability rises to 1−0.991000≈99.997%. In other words, a highly unlikely event, given enough independent trials, is very likely to occur.
+Similarly, for an event B with "one in a billion odds" of occurring in any single trial, across 1 billion independent trials the probability of B occurring at least once is 1−0.9999999991,000,000,000≈63.21%. Taking a "truly large" number of independent trials like 8 billion (the approximate human population of Earth as of 2026) raises this to  99.96%.
+These calculations can be formalized in mathematical language as: "the probability of an unlikely event X happening in N independent trials can become arbitrarily near to 1, no matter how small the probability of the event X in one single trial is, provided that N is truly large." 
+For example, where the probability of unlikely event X is not a small constant but decreased in function of N, see graph. 
+In high availability systems even very unlikely events have to be taken into consideration, in series systems even when the probability of failure for single element is very low after connecting them in large numbers probability of whole system failure raises (to make system failures less probable redundancy can be used — in such parallel systems even highly unreliable redundant parts connected in large numbers raise the probability of not breaking to required high level).
+
+
+== In criticism of pseudoscience ==
+The law comes up in criticism of pseudoscience and is sometimes called the Jeane Dixon effect (see also Postdiction). It holds that the more predictions a psychic makes, the better the odds that one of them will "hit". Thus, if one comes true, the psychic expects the audience to forget the vast majority that did not happen, an example of confirmation bias. Humans can be susceptible to this fallacy.
+Another similar manifestation of the law can be found in gambling, where gamblers tend to remember their wins and forget their losses, even if the latter far outnumber the former (though depending on a particular person, the opposite may also be true when they think they need more analysis of their losses to achieve fine tuning of their playing system). Mikal Aasved links it with "selective memory bias", allowing gamblers to mentally distance themselves from the consequences of their gambling by holding an inflated view of their real winnings (or losses in the opposite case – "selective memory bias in either direction").
+
+
+== See also ==
+
+
+== Notes ==
+
+
+== References ==
+Weisstein, Eric W. "Law of truly large numbers". MathWorld.
+Diaconis, P.; Mosteller, F. (1989). "Methods of Studying Coincidences" (PDF). Journal of the American Statistical Association. 84 (408): 853–61. doi:10.2307/2290058. JSTOR 2290058. MR 1134485. Archived from the original (PDF) on 2010-07-12. Retrieved 2009-04-28.
+Everitt, B.S. (2002). Cambridge Dictionary of Statistics (2nd ed.). ISBN 978-0521810999.
+David J. Hand, (2014), The Improbability Principle: Why Coincidences, Miracles, and Rare Events Happen Every Day
+
+
+== External links ==
+Math Explains Likely Long Shots, Miracles and Winning the Lottery (Excerpt) in Scientific American by David Hand 2014
+skepdic.com on the Law of Truly Large Numbers
+on the Law of Truly Large Numbers
+The On-Line Encyclopedia of Integer Sequences – related integer sequence

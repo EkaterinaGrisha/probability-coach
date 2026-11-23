@@ -1,0 +1,45 @@
+The Bertrand paradox is a problem within the classical interpretation of probability theory. Joseph Bertrand introduced it in his work Calcul des probabilités (1889) as an example to show that the principle of indifference may not produce definite, well-defined results for probabilities if it is applied uncritically when the domain of possibilities is infinite.
+
+
+== Bertrand's formulation of the problem ==
+The Bertrand paradox is generally presented as follows: Consider an equilateral triangle that is inscribed in a circle. Suppose a chord of the circle is chosen at random. What is the probability that the chord is longer than a side of the triangle?
+Bertrand gave three arguments (each using the principle of indifference), all apparently valid yet yielding different results:
+
+ The "random endpoints" method: Choose two random points on the circumference of the circle and draw the chord joining them. To calculate the probability in question imagine the triangle rotated so its vertex coincides with one of the chord endpoints. Observe that only if the other chord endpoint lies on the arc between the endpoints of the triangle side opposite the first point, the chord is longer than a side of the triangle. The length of that arc is one third of the circumference of the circle, therefore the probability that a random chord is longer than a side of the inscribed triangle is ⁠1/3⁠.
+ The "random radial point" method: Choose a radius of the circle, choose a point on the radius and construct the chord through this point and perpendicular to the radius. To calculate the probability in question imagine the triangle rotated so a side is perpendicular to the radius. The chord is longer than a side of the triangle if the chosen point is nearer the center of the circle than the point where the side of the triangle intersects the radius. The side of the triangle bisects the radius, therefore the probability a random chord is longer than a side of the inscribed triangle is ⁠1/2⁠.
+ The "random midpoint" method: Choose a point anywhere within the circle and construct a chord with the chosen point as its midpoint. The chord is longer than a side of the inscribed triangle if the chosen point falls within a concentric circle of radius ⁠1/2⁠ the radius of the larger circle. The area of the smaller circle is one fourth the area of the larger circle, therefore the probability a random chord is longer than a side of the inscribed triangle is ⁠1/4⁠. 
+These three selection methods differ as to the weight they give to chords which are diameters. This issue can be avoided by "regularizing" the problem so as to exclude diameters, without affecting the resulting probabilities. But as presented above, in method 1, each chord can be chosen in exactly one way, regardless of whether or not it is a diameter; in method 2, each diameter can be chosen in two ways, whereas each other chord can be chosen in only one way; and in method 3, each choice of midpoint corresponds to a single chord, except the center of the circle, which is the midpoint of all the diameters.
+
+Other selection methods have been found which yield different numerical answers. In fact, there exists an infinite family of them.
+
+
+== Classical solution ==
+The problem's classical solution (presented, for example, in Bertrand's own work) depends on the method by which a chord is chosen "at random". The argument is that if the method of random selection is specified, the problem will have a well-defined solution (determined by the principle of indifference). The three solutions presented by Bertrand correspond to different selection methods, and in the absence of further information there is no reason to prefer one over another; accordingly, the problem as stated has no unique solution. 
+
+
+== Jaynes's solution using the "maximum ignorance" principle ==
+In his 1973 paper "The Well-Posed Problem", Edwin Jaynes proposed a solution to Bertrand's paradox based on the principle of "maximum ignorance"—that we should not use any information that is not given in the statement of the problem. Jaynes pointed out that Bertrand's problem does not specify the position or size of the circle and argued that therefore any definite and objective solution must be "indifferent" to size and position. In other words: the solution must be both scale and translation invariant.
+To illustrate: assume that chords are laid at random onto a circle with a diameter of 2, say by throwing straws onto it from far away and converting them to chords by extension/restriction. Now another circle with a smaller diameter (e.g., 1.1) is laid into the larger circle. Then the distribution of the chords on that smaller circle needs to be the same as the restricted distribution of chords on the larger circle (again using extension/restriction of the generating straws). Thus, if the smaller circle is moved around within the larger circle, the restricted distribution should not change. It can be seen very easily that there would be a change for method 3: the chord distribution on the small red circle looks qualitatively different from the distribution on the large circle:
+
+The same occurs for method 1, though it is harder to see in a graphical representation. Method 2 is the only one that is both scale invariant and translation invariant; method 3 is just scale invariant, method 1 is neither.
+However, Jaynes did not just use invariances to accept or reject given methods: this would leave the possibility that there is another not yet described method that would meet his common-sense criteria. Jaynes used the integral equations describing the invariances to directly determine the probability distribution. These integral equations indeed have a unique solution, and it is precisely what was called "method 2" above, the random radius method.
+In a 2015 article, Alon Drory argued that Jaynes' principle can also yield Bertrand's other two solutions. Drory argues that the mathematical implementation of the above invariance properties is not unique, but depends on the underlying procedure of random selection that one uses (as mentioned above, Jaynes used a straw-throwing method to choose random chords). He shows that each of Bertrand's three solutions can be derived using rotational, scaling, and translational invariance, concluding that Jaynes' principle is just as subject to interpretation as the principle of indifference itself.
+For example, we may consider throwing a dart at the circle, and drawing the chord having the chosen point as its center. Then the unique distribution which is translation, rotation, and scale invariant is the one called "method 3" above.
+Likewise, "method 1" is the unique invariant distribution for a scenario where a spinner is used to select one endpoint of the chord, and then used again to select the orientation of the chord. Here the invariance in question consists of rotational invariance for each of the two spins. It is also the unique scale and rotation invariant distribution for a scenario where a rod is placed vertically over a point on the circle's circumference, and allowed to drop to the horizontal position (conditional on it landing partly inside the circle).
+
+
+== Physical experiments ==
+"Method 2" is the only solution that fulfills the transformation invariants that are present in certain physical systems—such as in statistical mechanics and gas physics—in the specific case of Jaynes's proposed experiment of throwing straws from a distance onto a small circle. Nevertheless, one can design other practical experiments that give answers according to the other methods. For example, in order to arrive at the solution of "method 1", the random endpoints method, one can affix a spinner to the center of the circle, and let the results of two independent spins mark the endpoints of the chord. In order to arrive at the solution of "method 3", one could cover the circle with molasses and mark the first point that a fly lands on as the midpoint of the chord. Several observers have designed experiments in order to obtain the different solutions and verified the results empirically.
+
+
+== Notes ==
+
+
+== Further reading ==
+Clark, Michael (2012), Paradoxes from A to Z (3rd ed.), Routledge, ISBN 978-0-415-53857-2
+Gyenis, Zalán; Rédei, Miklós (1 June 2015), "Defusing Bertrand's Paradox", British Journal for the Philosophy of Science, 66 (2): 349–373, doi:10.1093/bjps/axt036
+
+
+== External links ==
+Weisstein, Eric W. "Bertrand's Problem". MathWorld.
+Bertrand's Paradox and More on Bertrand's Paradox by Numberphile & 3Blue1Brown

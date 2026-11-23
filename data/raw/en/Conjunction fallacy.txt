@@ -1,0 +1,88 @@
+A conjunction effect or Linda problem is a bias or mistake in reasoning where adding extra details (an "and" statement or logical conjunction; mathematical shorthand: ∧) to a sentence makes it appear more likely. Logically, this is not possible, because adding more claims can make a true statement false, but cannot make false statements true: If A is true, then A∧B might be false (if B is false). However, if A is false, then A∧B will always be false, regardless of what B is. Therefore, A∧B cannot be more likely than A.
+
+
+== Definition and basic example ==
+
+The most often-cited example of this fallacy originated with Amos Tversky and Daniel Kahneman:
+
+Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations.
+Which is more probable?
+
+Linda is a bank teller.
+Linda is a bank teller and is active in the feminist movement.
+The majority of those asked chose option 2. However, this is logically impossible: if Linda is a bank teller active in the feminist movement, then she is a bank teller. Therefore, it is impossible for 2 to be true while 1 is false, so the probabilities are at most equal.
+More generally, the probability of two events occurring together (that is, in conjunction) is always less than or equal to the probability of either one occurring itself. For two events A and B this inequality can be written as Pr⁡(A∧B)≤Pr⁡(A).
+For example, even choosing a very low probability of Linda's being a bank teller, say Pr(Linda is a bank teller) = 0.05 and a high probability that she would be a feminist, say Pr(Linda is a feminist) = 0.95, then, assuming these two facts are independent of each other, Pr(Linda is a bank teller and Linda is a feminist) = 0.05 × 0.95 or 0.0475, lower than Pr(Linda is a bank teller).
+Tversky and Kahneman argue that most people get this problem wrong because they use a heuristic (an easily calculated) procedure called representativeness to make this kind of judgment: Option 2 seems more "representative" of Linda from the description of her, even though it is clearly mathematically less likely.
+In other demonstrations, they argued that a specific scenario seemed more likely because of representativeness, but each added detail would actually make the scenario less and less likely. In this way it could be similar to the misleading vividness fallacy. More recently, Kahneman has argued that the conjunction fallacy is a type of extension neglect.
+
+
+== Joint versus separate evaluation ==
+In some experimental demonstrations, the conjoint option is evaluated separately from its basic option. In other words, one group of participants is asked to rank-order the likelihood that Linda is a bank teller, a high school teacher, and several other options, and another group is asked to rank-order whether Linda is a bank teller and active in the feminist movement versus the same set of options (without "Linda is a bank teller" as an option). In this type of demonstration, different groups of subjects still rank-order Linda as a bank teller and active in the feminist movement more highly than Linda as a bank teller.
+Separate evaluation experiments preceded the earliest joint evaluation experiments, and Kahneman and Tversky were surprised when the effect was observed even under joint evaluation.
+
+
+== Other examples ==
+While the Linda problem is the best-known example, researchers have developed dozens of problems that reliably elicit the conjunction fallacy. 
+
+
+=== Tversky & Kahneman (1981) ===
+The original report by Tversky & Kahneman (later republished as a book chapter) described four problems that elicited the conjunction fallacy, including the Linda problem. There was also a similar problem about a man named Bill (a good fit for the stereotype of an accountant — "intelligent, but unimaginative, compulsive, and generally lifeless" — but not a good fit for the stereotype of a jazz player), and two problems where participants were asked to make predictions for events that could occur in 1981.
+Policy experts were asked to rate the probability that the Soviet Union would invade Poland, and the United States would break off diplomatic relations, all in the following year. They rated it on average as having a 4% probability of occurring. Another group of experts was asked to rate the probability simply that the United States would break off relations with the Soviet Union in the following year. They gave it an average probability of only 1%.
+In an experiment conducted in 1980, respondents were asked the following:
+
+Suppose Björn Borg reaches the Wimbledon finals in 1981. Please rank order the following outcomes from most to least likely.
+Borg will win the match
+Borg will lose the first set
+Borg will lose the first set but win the match
+Borg will win the first set but lose the match
+On average, participants rated "Borg will lose the first set but win the match" more likely than "Borg will lose the first set". However, winning the match is only one of several potential eventual outcomes after having lost the first set. The first and the second outcome are thus more likely (as they only contain one condition) than the third and fourth outcome (which depend on two conditions).
+
+
+=== Tversky & Kahneman (1983) ===
+Tversky and Kahneman followed up their original findings with a 1983 paper that looked at dozens of new problems, most of these with multiple variations. The following are a couple of examples.
+
+Consider a regular six-sided die with four green faces and two red faces. The die will be rolled 20 times and the sequence of greens (G) and reds (R) will be recorded. You are asked to select one sequence, from a set of three, and you will win $25 if the sequence you choose appears on successive rolls of the die.
+RGRRR
+GRGRRR
+GRRRRR
+65% of participants chose the second sequence, though option 1 is contained within it and is shorter than the other options. In a version where the $25 bet was only hypothetical the results did not significantly differ. Tversky and Kahneman argued that sequence 2 appears "representative" of a chance sequence (compare to the clustering illusion).
+
+ 
+A health survey was conducted in a representative sample of adult males in British Columbia of all ages and occupations.
+Mr. F. was included in the sample. He was selected by chance from the list of participants.
+Which of the following statements is more probable? (check one)
+
+Mr. F. has had one or more heart attacks.
+Mr. F. has had one or more heart attacks and he is over 55 years old.
+The probability of the conjunctions is never greater than that of its conjuncts. Therefore, the first choice is more probable.
+
+
+== Criticism ==
+Critics such as Gerd Gigerenzer and Ralph Hertwig criticized the Linda problem on grounds such as the wording and framing. The question of the Linda problem may violate conversational maxims in that people assume that the question obeys the maxim of relevance. Gigerenzer argues that some of the terminology used have polysemous meanings, the alternatives of which he claimed were more "natural". He argues that one meaning of probable ("what happens frequently") corresponds to the mathematical probability people are supposed to be tested on, but other meanings ("what is plausible" and "whether there is evidence") do not. The term "and" has even been argued to have relevant polysemous meanings. Many techniques have been developed to control for this possible misinterpretation, but none of them has dissipated the effect.
+Many variations in wording of the Linda problem were studied by Tversky and Kahneman. If the first option is changed to obey conversational relevance, i.e., "Linda is a bank teller whether or not she is active in the feminist movement" the effect is decreased, but the majority (57%) of the respondents still commit the conjunction error.  If the probability is changed to frequency format (see debiasing section below) the effect is reduced or eliminated. However, studies exist in which indistinguishable conjunction fallacy rates have been observed with stimuli framed in terms of probabilities versus frequencies.
+The wording criticisms may be less applicable to the conjunction effect in separate evaluation. The "Linda problem" has been studied and criticized more than other types of demonstration of the effect (some described below).
+In an incentivized experimental study, it has been shown that the conjunction fallacy decreased in those with greater cognitive ability, though it did not disappear. It has also been shown that the conjunction fallacy becomes less prevalent when subjects are allowed to consult with other subjects.
+Still, the conjunction fallacy occurs even when people are asked to make bets with real money, and when they solve intuitive physics problems of various designs.
+
+
+== Debiasing ==
+Drawing attention to set relationships, using frequencies instead of probabilities, or thinking diagrammatically are all methods that sharply reduce the error in some forms of the conjunction fallacy.
+In one experiment the question of the Linda problem was reformulated as follows:
+
+There are 100 persons who fit the description above (that is, Linda's). How many of them are:
+Bank tellers?  __ of 100
+Bank tellers and active in the feminist movement?  __ of 100
+Whereas previously 85% of participants gave the wrong answer (bank teller and active in the feminist movement), in experiments done with this questioning the proportion of incorrect answers is dramatically reduced (to ~20%). Participants were forced to use a mathematical approach and thus recognized the difference more easily.
+However, in some tasks only based on frequencies, not on stories, that used clear logical formulations, conjunction fallacies continued to occur dominantly, with only few exceptions, when the observed pattern of frequencies resembled a conjunction.
+
+
+== In popular culture ==
+In Episode 3 of Season 13 of Criminal Minds, SSA Dr. Spencer Reid exposes SSA Luke Alvez and SA Penelope Garcia to the Linda problem, saying that he is planning to discuss it in a seminar addressed to FBI agents.
+
+
+== References ==
+
+
+== External links ==
+Fallacy files: Conjunction fallacy

@@ -1,0 +1,37 @@
+The Texas sharpshooter fallacy is the informal fallacy of focusing on evidence that supports a conclusion, while disregarding evidence that does not. It is the philosophical or rhetorical application of the multiple comparisons problem (in statistics) and apophenia (in cognitive psychology). It is related to the clustering illusion, which is the tendency in human cognition to interpret patterns where none actually exist.
+The name comes from an anecdote about a person in Texas who fires a gun at the side of a barn, then paints a target around the tightest cluster of shots and claims to be a sharpshooter.
+
+
+== History ==
+The mathematician John Venn presented the statistical fallacy and the shooting analogy in 1866:
+
+One of the most fertile sources of error and confusion... consists in choosing the class to which to refer an event, and therefore judging of the rarity of the event and the consequent improbability of foretelling it, after it has happened, and then transferring the impressions we experience to a supposed contemplation of the event beforehand.... No error therefore need arise in this way, if we were careful as to the class which we thus selected; but such carefulness is often neglected.
+An illustration may afford help here. A man once pointed to a small target chalked upon a door, the target having a bullet hole through the centre of it, and surprised some spectators by declaring that he had fired that shot from an old fowling-piece at a distance of a hundred yards. His statement was true enough, but he suppressed a rather important fact. The shot had really been aimed in a general way at the barn-door, and had hit it; the target was afterwards chalked round the spot where the bullet struck. A deception analogous to this is, I think, often practised unconsciously in other matters. We judge of events on a similar principle, feeling and expressing surprise in an equally unreasonable way, and deciding as to their occurrence on grounds which are really merely a subsequent adjunct of our own.The story about drawing the target after making the shot is older than that. A version involving arrows is attributed to the Dubno Maggid (died 1804), and similar stories are probably older.
+In the modern statistical literature, the story of a specifically Texas sharpshooter is first mentioned in 1977, perhaps drawing on the stereotype of Texans as tellers of tall tales. In the American Civil War, there was in fact a 1st Battalion of Texas Sharpshooters, but there is no obvious connection. The Texas sharpshooter was popularized by Atul Gawande in 1999.
+
+
+== Structure ==
+
+The Texas sharpshooter fallacy often arises when a conclusion is based on the analysis of a highly restricted subset of available data. Some factor other than the one attributed may give all the elements in that subset some common property (or pair of common properties, when arguing for correlation). If the person attempts to account for the likelihood of finding some subset in the large data with some common property by a factor other than its actual cause, the person is likely committing a Texas sharpshooter fallacy.
+The fallacy is characterized by the failure to specify a hypothesis before gathering data, or to formulate one only after data has been collected and reviewed (HARKing). Thus, it typically does not apply if one had an ex ante, or prior, expectation of the particular relationship in question before examining the data. For example, before examining the information, one might have in mind a specific physical mechanism implying the particular relationship. One could then use the information to give support or cast doubt on the presence of that mechanism. Alternatively, if a second set of additional information can be generated using the same process as the original information, one can use the first (original) set of information to construct a hypothesis, and then test the hypothesis on the second (new) set of information. (See hypothesis testing.) However, after constructing a hypothesis on a set of data, one would be committing the Texas sharpshooter fallacy if they then tested that hypothesis on the same data (see hypotheses suggested by the data).
+
+
+== Examples ==
+In 1993, Swedish researchers reported the results of study designed to investigate whether long-term proximity to high-voltage power lines was linked to negative health outcomes. Health surveys of people living within 300 metres of such power lines were undertaken over a 25-year period, following which the data collected were analysed in order to determine whether a statistically significant increase could be detected in the prevalence of over 800 medical conditions, when compared to people who lived further away. The study found that the incidence of childhood leukemia was four times higher in the former group, prompting calls for action by the Swedish government. The problem with the conclusion, however, was that the number of potential ailments, i.e., over 800, was so large that it created a high probability that at least one ailment would have a statistically significant correlation with living distance from power lines by chance alone, a situation known as the multiple comparisons problem. Subsequent studies failed to show any association between power lines and childhood leukemia.
+The fallacy is often found in modern-day interpretations of the quatrains of Nostradamus. Nostradamus's quatrains are often liberally translated from their original Middle French versions, in which their historical context is often lost, and then applied to support the erroneous conclusion that Nostradamus predicted a given modern-day event after the event actually occurred.
+
+
+== See also ==
+
+
+=== Related fallacies ===
+Correlative-based fallacies – Informal fallacies based on correlative conjunctions
+Cum hoc ergo propter hoc – Refutation of a logical fallacyPages displaying short descriptions of redirect targets
+Post hoc ergo propter hoc – Fallacy of assumption of causation based on sequence of events
+
+
+== References ==
+
+
+== External links ==
+Fallacy files entry

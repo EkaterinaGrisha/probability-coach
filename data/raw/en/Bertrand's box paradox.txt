@@ -1,0 +1,55 @@
+Bertrand's box paradox is a veridical paradox in elementary probability theory. It was first posed by Joseph Bertrand in his 1889 work Calcul des Probabilités.
+There are three boxes: 
+
+a box containing two gold coins,
+a box containing two silver coins,
+a box containing one gold coin and one silver coin.
+A coin withdrawn at random from one of the three boxes happens to be a gold. What is the probability the other coin from the same box will also be a gold coin?
+A veridical paradox is a paradox whose correct solution seems to be counterintuitive. It may seem intuitive that the probability that the remaining coin is gold should be ⁠1/2⁠, but the probability is actually ⁠2/3⁠. Bertrand showed that if ⁠1/2⁠ were correct, it would result in a contradiction, so ⁠1/2⁠ cannot be correct.
+This simple but counterintuitive puzzle is used as a standard example in teaching probability theory. The solution illustrates some basic principles, including the Kolmogorov axioms.
+
+
+== Solution ==
+
+The problem can be reframed by describing the boxes as each having one drawer on each of two sides. Each drawer contains a coin. One box has a gold coin on each side (GG), one a silver coin on each side (SS), and the other a gold coin on one side and a silver coin on the other (GS). A box is chosen at random, a random drawer is opened, and a gold coin is found inside it. What is the chance of the coin on the other side being gold?
+The following reasoning appears to give a probability of ⁠1/2⁠:
+
+Originally, all three boxes were equally likely to be chosen.
+The chosen box cannot be box SS.
+So it must be box GG or GS.
+The two remaining possibilities are equally likely. So the probability that the box is GG, and the other coin is also gold, is ⁠1/2⁠.
+The reasoning for the 2/3 is as follows:
+
+Originally, all six coins were equally likely to be chosen.
+The chosen coin cannot be from drawer S of box GS, or from either drawer of box SS.
+So it must come from the G drawer of box GS, or either drawer of box GG.
+The three remaining possibilities are equally likely, so the probability that     the drawer is from box GG is ⁠2/3⁠.
+Bertrand's purpose for constructing this example was to show that merely counting cases is not always proper. Instead, one should sum the probabilities that the cases would produce the observed result.
+
+
+== Experimental data ==
+
+A survey of psychology freshmen taking an introductory probability course was conducted to assess their solutions to the similar three-card problem. In the three-card problem, three cards are placed into a hat. One card is red on both sides, one is white on both sides, and one is white on one side and red on the other. If a card pulled from the hat is red on one side, the probability of the other side also being red is ⁠2/3⁠.
+53 students participated and were asked what the probability of the other side being red were. 35 incorrectly responded with ⁠1/2⁠; only 3 students correctly responded with ⁠2/3⁠.
+
+
+== Related problems ==
+Other veridical paradoxes of probability include:
+
+the boy or girl paradox
+the Monty Hall problem
+the three prisoners problem
+the two envelopes problem
+the Sleeping Beauty problem
+The Monty Hall and Three Prisoners problems are identical mathematically to Bertrand's Box paradox. The construction of the Boy or Girl paradox is similar, essentially adding a fourth box with a gold coin and a silver coin. Its answer is controversial, based on how one assumes the "drawer" was chosen.
+
+
+== References ==
+
+Nickerson, Raymond (2004). Cognition and Chance: The psychology of probabilistic reasoning, Lawrence Erlbaum. Ch. 5, "Some instructive problems: Three cards", pp. 157–160. ISBN 0-8058-4898-3
+Michael Clark, Paradoxes from A to Z, p. 16;
+Howard Margolis, Wason, Monty Hall, and Adverse Defaults.
+
+
+== External links ==
+Estimating the Probability with Random Boxes and Names Archived 2018-09-26 at the Wayback Machine, a simulation
